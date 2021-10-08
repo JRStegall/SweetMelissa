@@ -34,8 +34,9 @@ function Main(){
         <h6>Like us on Facebook, stay tuned for future events and SUPPORT LOCAL MUSIC!!</h6>
         <br/>
         <br/>
-        <h6>Our current lineup:</h6>
+        
       <div className="container band">
+      <h5>Our current lineup:</h5>
         <div className="row">
           <div  className="col this">
             <div className="row pics">
@@ -78,8 +79,9 @@ function Main(){
 <br/>
 <br/>
 
-      <h6>But you may have also seen us with these guys:</h6>
-      <div className="container">
+      
+      <div className="container band">
+      <h5>But you may have also seen us with these guys:</h5>
         <div className="row">
           <div  className="col this">
             <div className="row pics">
