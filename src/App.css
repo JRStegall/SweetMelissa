@@ -3,7 +3,7 @@
   background-image: url("./Images/background1.jpg");
   background-attachment: fixed;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: contain;
   max-width: 100%;
   height: auto;
 }
