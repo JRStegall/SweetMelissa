@@ -34,7 +34,7 @@ function Main(){
         <h6>Like us on Facebook, stay tuned for future events and SUPPORT LOCAL MUSIC!!</h6>
         <br/>
         <br/>
-        <h6>Here is our current lineup:</h6>
+        <h6>Our current lineup:</h6>
       <div className="container band">
         <div className="row">
           <div  className="col this">
@@ -59,7 +59,7 @@ function Main(){
                   <img src={DR} className="App-logo img-responsive" alt="logo" />
                     <figcaption class="figure-caption text-right">Diane Rabson - keys</figcaption>                          
                 </figure>
-                
+
               <figure className="figure">
                   <img src={CR} className="App-logo img-responsive" alt="logo" />
                     <figcaption class="figure-caption text-right">Chris "Critter" Ricker - guitar</figcaption>                          
