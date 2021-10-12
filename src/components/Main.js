@@ -1,4 +1,5 @@
 import React from "react";
+import Carousel  from "react-bootstrap/Carousel";
 import Mel from "../Images/melissa.jpeg";
 import CR from "../Images/critter.jpeg";
 import AK from "../Images/aaron.jpeg";
@@ -30,52 +31,61 @@ function Main(){
        We LOVE all things Allman! <br/> 
        More than that, we have a passion for playing music and helping to keep The Allman Brothers music alive!
         </h5>
-        <h6>Since our beginning, we have been fortunate to play with some truly amazing musicians from the Atlanta music scene.</h6>
         <h6>Like us on Facebook, stay tuned for future events and SUPPORT LOCAL MUSIC!!</h6>
+        <h6>Since our beginning, we have been fortunate to play with some truly amazing musicians from the Atlanta music scene. <br/>. We are greatful to each and everyone who has joined us on this venture!</h6>
+        
         <br/>
         <br/>
         
       <div className="container band">
       <h5>Our current lineup:</h5>
-        <div className="row">
-          <div  className="col this">
-            <div className="row pics">
-              <div className="col-7 mx-auto">
-                <figure className="figure">
-                  <img src={Mel} className="App-logo img-responsive" alt="logo" />
-                    <figcaption class="figure-caption text-right">Melissa Goehner - vocals</figcaption>                          
-                </figure>
+      <div>
+            
+            <div className="container-fluid carousel">
+            <Carousel interval={5000} keyBoard={false} pauseOnHover={true} style={{ 'width': '800px'}}>
+                    <Carousel.Item style={{ "height": "600px" }}>
+                        <img style={{ "height": "600px" }} className="d-block w-100"  src={Mel} alt="MOMS 10/2"></img>
+                    <Carousel.Caption>
+                        <h5>Melissa Goehner - Vocals</h5>
+                    </Carousel.Caption>
+                    </Carousel.Item>
+                    <Carousel.Item style={{ 'height': '600px' }}>
+                        <img style={{ 'height': '600px' }} className="d-block w-100" src={JB} alt="MOMS 10/2"></img>
+                        <Carousel.Caption>
+                            <h5>Johnny Barret - Bass/Vocals</h5>
+                    </Carousel.Caption>
+                    </Carousel.Item>
+                    <Carousel.Item style={{ 'height': '600px' }}>
+                        <img style={{ 'height': '600px' }} className="d-block w-100" src={AK} alt="MOMS 10/2"></img>
+                        <Carousel.Caption>
+                            <h5>Aaron Kaufman - Drums</h5>
+                    </Carousel.Caption>
+              </Carousel.Item>
+              <Carousel.Item style={{ 'height': '600px' }}>
+                        <img style={{ 'height': '600px' }} className="d-block w-100" src={DR} alt="MOMS 10/2"></img>
+                        <Carousel.Caption>
+                            <h5>Diane Rabson - Keys</h5>
+                    </Carousel.Caption>
+              </Carousel.Item>
+              <Carousel.Item style={{ 'height': '600px' }}>
+                        <img style={{ 'height': '600px' }} className="d-block w-100" src={CR} alt="MOMS 10/2"></img>
+                        <Carousel.Caption>
+                            <h5>Chris "Critter" Ricker - Guitar</h5>
+                    </Carousel.Caption>
+              </Carousel.Item>
+              <Carousel.Item style={{ 'height': '600px' }}>
+                        <img style={{ 'height': '600px' }} className="d-block w-100" src={JS} alt="MOMS 10/2"></img>
+                        <Carousel.Caption>
+                            <h5>Jeremy Stegall - Guitar/Vocals</h5>
+                    </Carousel.Caption>
+              </Carousel.Item>
               
-              <figure className="figure">
-                  <img src={JB} className="App-logo img-responsive" alt="logo" />
-                    <figcaption class="figure-caption text-right">Johnny Barret - bass/vocals</figcaption>                          
-                </figure>
-              
-              <figure className="figure">
-                  <img src={AK} className="App-logo img-responsive" alt="logo" />
-                    <figcaption class="figure-caption text-right">Aaron Kaufman - drums</figcaption>                          
-                </figure>
-
-                <figure className="figure">
-                  <img src={DR} className="App-logo img-responsive" alt="logo" />
-                    <figcaption class="figure-caption text-right">Diane Rabson - keys</figcaption>                          
-                </figure>
-
-              <figure className="figure">
-                  <img src={CR} className="App-logo img-responsive" alt="logo" />
-                    <figcaption class="figure-caption text-right">Chris "Critter" Ricker - guitar</figcaption>                          
-                </figure>
-              
-              <figure className="figure">
-                  <img src={JS} className="App-logo img-responsive" alt="logo" />
-                    <figcaption class="figure-caption text-right">Jeremy Stegall - guitar/vocals</figcaption>                          
-                </figure>
-                
-              </div>      
-            </div>  
-          </div>
+                </Carousel>
+            </div>
         </div>
-      </div>
+        </div>
+        
+        
 <br/>
 <br/>
 

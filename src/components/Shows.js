@@ -1,12 +1,22 @@
 import React from "react";
+import Carousel from "react-bootstrap/Carousel";
+import Melissa from "../Images/melissa2.jpeg";
+import Johnny from "../Images/johnny.jpeg";
+import Barry from "../Images/barry1.jpeg";
 import Moms from "../Images/moms1.jpeg";
 import Moms3 from "../Images/moms3.jpeg";
-import Moms5 from "../Images/moms5.jpeg";
-import Moms6 from "../Images/moms6.jpeg";
+import Moms4 from "../Images/moms4.jpeg";
+import Moms7 from "../Images/moms7.jpeg";
+import Moms8 from "../Images/moms8.jpeg";
+import Moms9 from "../Images/moms9.jpeg";
+import Moms12 from "../Images/moms12.jpeg";
+import Moms15 from "../Images/moms15.jpeg";
+import Moms17 from "../Images/moms17.jpeg";
+import Moms18 from "../Images/moms18.jpeg";
+import Moms20 from "../Images/moms20.jpeg";
 import Band2 from "../Images/band2.jpeg";
 import Band3 from "../Images/band3.jpeg";
 import Band4 from "../Images/band4.jpeg";
-import Band5 from "../Images/band5.jpeg";
 import Band6 from "../Images/band6.jpeg";
 import TGR from "../Images/tgr.jpeg";
 import BRAG from "../Images/brag1.jpeg";
@@ -22,125 +32,183 @@ import F5 from "../Images/flyer5.jpeg";
 
 function Shows(){
     return (
-        <div className="Main">
+        <div className="Main band">
         <h6>Some of our recent shows:</h6>
-        <div className="container">
-          <div className="row">
-            <div  className="col this">
-              <div className="row pics">
-                <div className="col-4">
-                  <figure className="figure">
-                    <img src={Moms} className="App-logo img-responsive" alt="logo" />
-                      <figcaption class="figure-caption text-right">Music on Main Street</figcaption>                          
-                  </figure>
-                </div>
-                <div className="col-4">
-                <figure className="figure">
-                    <img src={Moms3} className="App-logo img-responsive" alt="logo" />
-                      <figcaption class="figure-caption text-right">Music on Main Street</figcaption>                          
-                  </figure>
-                </div>
-                <div className="col-4">
-                <figure className="figure">
-                    <img src={Moms6} className="App-logo img-responsive" alt="logo" />
-                      <figcaption class="figure-caption text-right">Music on Main Street</figcaption>                          
-                  </figure>
-                </div>
-                <div className="col-4">
-                <figure className="figure">
-                    <img src={Band5} className="App-logo img-responsive" alt="logo" />
-                      <figcaption class="figure-caption text-right">Music on Main Street</figcaption>                          
-                  </figure>
-                </div>
-                <div className="col-4">
-                <figure className="figure">
-                    <img src={Moms5} className="App-logo img-responsive" alt="logo" />
-                      <figcaption class="figure-caption text-right">Music on Main Street</figcaption>                          
-                  </figure>
-                </div>
-                <div className="col-4">
-                <figure className="figure">
-                    <img src={TGR} className="App-logo img-responsive" alt="logo" />
-                      <figcaption class="figure-caption text-right">The Green Room</figcaption>                          
-                  </figure>
-                </div>
-                <div className="col-4">
-                <figure className="figure">
-                    <img src={Band6} className="App-logo img-responsive" alt="logo" />
-                      <figcaption class="figure-caption text-right">The Green Room</figcaption>                          
-                  </figure>
-                </div>
-                <div className="col-4">
-                <figure className="figure">
-                    <img src={Band2} className="App-logo img-responsive" alt="logo" />
-                      <figcaption class="figure-caption text-right">From The Earth Brewing</figcaption>                          
-                  </figure>
-                </div>
-                <div className="col-4">
-                <figure className="figure">
-                    <img src={Band3} className="App-logo img-responsive" alt="logo" />
-                      <figcaption class="figure-caption text-right">Terminal West</figcaption>                          
-                  </figure>
-                </div>
-                <div className="col-4">
-                <figure className="figure">
-                    <img src={Band4} className="App-logo img-responsive" alt="logo" />
-                      <figcaption class="figure-caption text-right">BRAG (Bicycle Ride Across Georgia)</figcaption>                          
-                  </figure>
-                </div>
-                <div className="col-4">
-                <figure className="figure">
-                    <img src={BRAG} className="App-logo img-responsive" alt="logo" />
-                      <figcaption class="figure-caption text-right">BRAG (Bicycle Ride Across Georgia)</figcaption>                          
-                  </figure>
-                </div>
-                <div className="col-4">
-                <figure className="figure">
-                    <img src={Porch2} className="App-logo img-responsive" alt="logo" />
-                      <figcaption class="figure-caption text-right">Porchfest 2020</figcaption>                          
-                  </figure>
-                </div>
-                <div className="col-4">
-                <figure className="figure">
-                    <img src={Porch1} className="App-logo img-responsive" alt="logo" />
-                      <figcaption class="figure-caption text-right">Porchfest 2020</figcaption>                          
-                  </figure>
-                </div>
-                <div className="col-4">
-                <figure className="figure">
-                    <img src={F5} className="App-logo img-responsive" alt="logo" />
-                      <figcaption class="figure-caption text-right"></figcaption>                          
-                  </figure>
-                </div>
-                <div className="col-4">
-                <figure className="figure">
-                    <img src={F4} className="App-logo img-responsive" alt="logo" />
-                      <figcaption class="figure-caption text-right"></figcaption>                          
-                  </figure>
-                </div>
-                <div className="col-4">
-                <figure className="figure">
-                    <img src={F3} className="App-logo img-responsive" alt="logo" />
-                      <figcaption class="figure-caption text-right"></figcaption>                          
-                  </figure>
-                </div>
-                <div className="col-4">
-                <figure className="figure">
-                    <img src={F2} className="App-logo img-responsive" alt="logo" />
-                      <figcaption class="figure-caption text-right"></figcaption>                          
-                  </figure>
-                </div>
-                <div className="col-4">
-                <figure className="figure">
-                    <img src={F1} className="App-logo img-responsive" alt="logo" />
-                      <figcaption class="figure-caption text-right"></figcaption>                          
-                  </figure>
-                </div>
-              </div>
-            </div>
-          </div>
-          </div>
-          </div>
+        <Carousel interval={5000} keyBoard={false} pauseOnHover={true} style={{ 'width': '800px' }}>
+        <Carousel.Item style={{ 'height': '600px' }}>
+                        <img style={{ 'height': '600px' }} className="d-block w-100" src={Moms7} alt="MOMS 10/2"></img>
+                        <Carousel.Caption>
+                            <h5>Music On Main Street - 10/02/2021</h5>
+                    </Carousel.Caption>
+                    </Carousel.Item>
+                    <Carousel.Item style={{ "height": "600px" }}>
+                        <img style={{ "height": "600px" }} className="d-block w-100"  src={Moms} alt="MOMS 10/2"></img>
+                    <Carousel.Caption>
+                        <h5>Music On Main Street - 10/02/2021</h5>
+                    </Carousel.Caption>
+                    </Carousel.Item>
+                    <Carousel.Item style={{ 'height': '600px' }}>
+                        <img style={{ 'height': '600px' }} className="d-block w-100" src={Moms3} alt="MOMS 10/2"></img>
+                        <Carousel.Caption>
+                            <h5>Music On Main Street - 10/02/2021</h5>
+                    </Carousel.Caption>
+          </Carousel.Item>
+          <Carousel.Item style={{ 'height': '600px' }}>
+                        <img style={{ 'height': '600px' }} className="d-block w-100" src={Moms12} alt="MOMS 10/2"></img>
+                        <Carousel.Caption>
+                            <h5>Music On Main Street - 10/02/2021</h5>
+                    </Carousel.Caption>
+                    </Carousel.Item>
+              <Carousel.Item style={{ 'height': '600px' }}>
+                        <img style={{ 'height': '600px' }} className="d-block w-100" src={Moms8} alt="MOMS 10/2"></img>
+                        <Carousel.Caption>
+                            <h5>Music On Main Street - 10/02/2021</h5>
+                    </Carousel.Caption>
+          </Carousel.Item>
+          <Carousel.Item style={{ 'height': '600px' }}>
+                        <img style={{ 'height': '600px' }} className="d-block w-100" src={Melissa} alt="MOMS 10/2"></img>
+                        <Carousel.Caption>
+                            <h5>Music On Main Street - 10/02/2021</h5>
+                    </Carousel.Caption>
+          </Carousel.Item>
+          
+          
+          <Carousel.Item style={{ 'height': '600px' }}>
+                        <img style={{ 'height': '600px' }} className="d-block w-100" src={Moms15} alt="MOMS 10/2"></img>
+                        <Carousel.Caption>
+                            <h5>Music On Main Street - 10/02/2021</h5>
+                    </Carousel.Caption>
+          </Carousel.Item>
+          <Carousel.Item style={{ 'height': '600px' }}>
+                        <img style={{ 'height': '600px' }} className="d-block w-100" src={Moms9} alt="MOMS 10/2"></img>
+                        <Carousel.Caption>
+                            <h5>Music On Main Street - 10/02/2021</h5>
+                    </Carousel.Caption>
+          </Carousel.Item>
+          <Carousel.Item style={{ 'height': '600px' }}>
+                        <img style={{ 'height': '600px' }} className="d-block w-100" src={Johnny} alt="MOMS 10/2"></img>
+                        <Carousel.Caption>
+                            <h5>Music On Main Street - 10/02/2021</h5>
+                    </Carousel.Caption>
+          </Carousel.Item>
+          <Carousel.Item style={{ 'height': '600px' }}>
+                        <img style={{ 'height': '600px' }} className="d-block w-100" src={Moms17} alt="MOMS 10/2"></img>
+                        <Carousel.Caption>
+                            <h5>Music On Main Street - 10/02/2021</h5>
+                    </Carousel.Caption>
+          </Carousel.Item>
+          <Carousel.Item style={{ 'height': '600px' }}>
+                        <img style={{ 'height': '600px' }} className="d-block w-100" src={Barry} alt="MOMS 10/2"></img>
+                        <Carousel.Caption>
+                            <h5>Music On Main Street - 10/02/2021</h5>
+                    </Carousel.Caption>
+          </Carousel.Item>
+          <Carousel.Item style={{ 'height': '600px' }}>
+                        <img style={{ 'height': '600px' }} className="d-block w-100" src={Moms18} alt="MOMS 10/2"></img>
+                        <Carousel.Caption>
+                            <h5>Music On Main Street - 10/02/2021</h5>
+                    </Carousel.Caption>
+          </Carousel.Item>
+          <Carousel.Item style={{ 'height': '600px' }}>
+                        <img style={{ 'height': '600px' }} className="d-block w-100" src={Moms20} alt="MOMS 10/2"></img>
+                        <Carousel.Caption>
+                            <h5>Music On Main Street - 10/02/2021</h5>
+                    </Carousel.Caption>
+          </Carousel.Item>
+          <Carousel.Item style={{ 'height': '600px' }}>
+                        <img style={{ 'height': '600px' }} className="d-block w-100" src={Moms4} alt="MOMS 10/2"></img>
+                        <Carousel.Caption>
+                            <h5>Music On Main Street - 10/02/2021</h5>
+                    </Carousel.Caption>
+          </Carousel.Item>
+          <Carousel.Item style={{ 'height': '600px' }}>
+                        <img style={{ 'height': '600px' }} className="d-block w-100" src={Moms12} alt="MOMS 10/2"></img>
+                        <Carousel.Caption>
+                            <h5>Music On Main Street - 10/02/2021</h5>
+                    </Carousel.Caption>
+          </Carousel.Item>
+          <Carousel.Item style={{ 'height': '600px' }}>
+                        <img style={{ 'height': '600px' }} className="d-block w-100" src={TGR} alt="MOMS 10/2"></img>
+                        <Carousel.Caption>
+                            <h5>The Green Room - 9/18/2021</h5>
+                    </Carousel.Caption>
+          </Carousel.Item>
+          <Carousel.Item style={{ 'height': '600px' }}>
+                        <img style={{ 'height': '600px' }} className="d-block w-100" src={Band6} alt="MOMS 10/2"></img>
+                        <Carousel.Caption>
+                            <h5>The Green Room - 9/18/2021</h5>
+                    </Carousel.Caption>
+              </Carousel.Item>
+              <Carousel.Item style={{ 'height': '600px' }}>
+                        <img style={{ 'height': '600px' }} className="d-block w-100" src={Band2} alt="MOMS 10/2"></img>
+                        <Carousel.Caption>
+                            <h5>From The Earth Brewing</h5>
+                    </Carousel.Caption>
+              </Carousel.Item>
+              <Carousel.Item style={{ 'height': '600px' }}>
+                        <img style={{ 'height': '600px' }} className="d-block w-100" src={Band3} alt="MOMS 10/2"></img>
+                        <Carousel.Caption>
+                            <h5>Terminal West</h5>
+                    </Carousel.Caption>
+              </Carousel.Item>
+              <Carousel.Item style={{ 'height': '600px' }}>
+                        <img style={{ 'height': '600px' }} className="d-block w-100" src={Band4} alt="MOMS 10/2"></img>
+                        <Carousel.Caption>
+                            <h5>Bicycle Ride Across Georiga</h5>
+                    </Carousel.Caption>
+              </Carousel.Item>
+              
+              <Carousel.Item style={{ 'height': '600px' }}>
+                        <img style={{ 'height': '600px' }} className="d-block w-100" src={BRAG} alt="MOMS 10/2"></img>
+                        <Carousel.Caption>
+                            <h5>Bicycle Ride Across Georiga - 2020</h5>
+                    </Carousel.Caption>
+              </Carousel.Item>
+              <Carousel.Item style={{ 'height': '600px' }}>
+                        <img style={{ 'height': '600px' }} className="d-block w-100" src={Porch1} alt="MOMS 10/2"></img>
+                        <Carousel.Caption>
+                            <h5>Oakhurst Porchfest - 2020</h5>
+                    </Carousel.Caption>
+              </Carousel.Item>
+              <Carousel.Item style={{ 'height': '600px' }}>
+                        <img style={{ 'height': '600px' }} className="d-block w-100" src={Porch2} alt="MOMS 10/2"></img>
+                        <Carousel.Caption>
+                            <h5>Oakhurst Porchfest - 2020</h5>
+                    </Carousel.Caption>
+              </Carousel.Item>
+              <Carousel.Item style={{ 'height': '600px' }}>
+                        <img style={{ 'height': '600px' }} className="d-block w-100" src={F1} alt="MOMS 10/2"></img>
+                        <Carousel.Caption>
+                            <h5></h5>
+                    </Carousel.Caption>
+              </Carousel.Item>
+              <Carousel.Item style={{ 'height': '600px' }}>
+                        <img style={{ 'height': '600px' }} className="d-block w-100" src={F2} alt="MOMS 10/2"></img>
+                        <Carousel.Caption>
+                            <h5></h5>
+                    </Carousel.Caption>
+              </Carousel.Item>
+              <Carousel.Item style={{ 'height': '600px' }}>
+                        <img style={{ 'height': '600px' }} className="d-block w-100" src={F3} alt="MOMS 10/2"></img>
+                        <Carousel.Caption>
+                            <h5></h5>
+                    </Carousel.Caption>
+              </Carousel.Item>
+              <Carousel.Item style={{ 'height': '600px' }}>
+                        <img style={{ 'height': '600px' }} className="d-block w-100" src={F4} alt="MOMS 10/2"></img>
+                        <Carousel.Caption>
+                            <h5></h5>
+                    </Carousel.Caption>
+              </Carousel.Item>
+              <Carousel.Item style={{ 'height': '600px' }}>
+                        <img style={{ 'height': '600px' }} className="d-block w-100" src={F5} alt="MOMS 10/2"></img>
+                        <Carousel.Caption>
+                            <h5></h5>
+                    </Carousel.Caption>
+              </Carousel.Item>
+              
+                </Carousel>
+      </div>
     )
 };
 
