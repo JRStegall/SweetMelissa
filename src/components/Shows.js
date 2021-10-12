@@ -175,7 +175,14 @@ function Shows(){
                         <Carousel.Caption>
                             <h5>Oakhurst Porchfest - 2020</h5>
                     </Carousel.Caption>
+          </Carousel.Item>
+          <Carousel.Item style={{ 'height': '600px' }}>
+                        <img style={{ 'height': '600px' }} className="d-block w-100" src={F5} alt="MOMS 10/2"></img>
+                        <Carousel.Caption>
+                            <h5>Atlanta Botanical Gardens - 7/30/2021</h5>
+                    </Carousel.Caption>
               </Carousel.Item>
+              
               <Carousel.Item style={{ 'height': '600px' }}>
                         <img style={{ 'height': '600px' }} className="d-block w-100" src={F1} alt="MOMS 10/2"></img>
                         <Carousel.Caption>
@@ -185,27 +192,22 @@ function Shows(){
               <Carousel.Item style={{ 'height': '600px' }}>
                         <img style={{ 'height': '600px' }} className="d-block w-100" src={F2} alt="MOMS 10/2"></img>
                         <Carousel.Caption>
-                            <h5></h5>
+                            <h5>Avondale Town Cinema - 9/13/2019</h5>
                     </Carousel.Caption>
               </Carousel.Item>
               <Carousel.Item style={{ 'height': '600px' }}>
                         <img style={{ 'height': '600px' }} className="d-block w-100" src={F3} alt="MOMS 10/2"></img>
                         <Carousel.Caption>
-                            <h5></h5>
+                            <h5>Red Light Cafe - 1/11/2019</h5>
                     </Carousel.Caption>
               </Carousel.Item>
               <Carousel.Item style={{ 'height': '600px' }}>
                         <img style={{ 'height': '600px' }} className="d-block w-100" src={F4} alt="MOMS 10/2"></img>
                         <Carousel.Caption>
-                            <h5></h5>
+                            <h5>Oakhurst Porchfest - 2020</h5>
                     </Carousel.Caption>
-              </Carousel.Item>
-              <Carousel.Item style={{ 'height': '600px' }}>
-                        <img style={{ 'height': '600px' }} className="d-block w-100" src={F5} alt="MOMS 10/2"></img>
-                        <Carousel.Caption>
-                            <h5></h5>
-                    </Carousel.Caption>
-              </Carousel.Item>
+          </Carousel.Item>
+          
               
                 </Carousel>
       </div>

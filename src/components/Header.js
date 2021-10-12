@@ -1,5 +1,5 @@
 import React from "react";
-import Bandlogo from '../Images/bandlogo2.png';
+import Bandlogo from '../Images/flyer6.png';
 
 
 

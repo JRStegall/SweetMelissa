@@ -1,0 +1,155 @@
+<div className="row">
+<div  className="col this">
+<div className="row pics">
+<div className="col-7 mx-auto">
+<figure className="figure">
+<img src={Mel} className="App-logo img-responsive" alt="logo" />
+<figcaption class="figure-caption text-right">Melissa Goehner - vocals</figcaption>  
+ </figure>
+
+              <figure className="figure">
+                  <img src={JB} className="App-logo img-responsive" alt="logo" />
+                    <figcaption class="figure-caption text-right">Johnny Barret - bass/vocals</figcaption>
+                </figure>
+
+              <figure className="figure">
+                  <img src={AK} className="App-logo img-responsive" alt="logo" />
+                    <figcaption class="figure-caption text-right">Aaron Kaufman - drums</figcaption>
+                </figure>
+
+                <figure className="figure">
+                  <img src={DR} className="App-logo img-responsive" alt="logo" />
+                    <figcaption class="figure-caption text-right">Diane Rabson - keys</figcaption>
+                </figure>
+
+              <figure className="figure">
+                  <img src={CR} className="App-logo img-responsive" alt="logo" />
+                    <figcaption class="figure-caption text-right">Chris "Critter" Ricker - guitar</figcaption>
+                </figure>
+
+              <figure className="figure">
+                  <img src={JS} className="App-logo img-responsive" alt="logo" />
+                    <figcaption class="figure-caption text-right">Jeremy Stegall - guitar/vocals</figcaption>
+                </figure>
+
+              </div>
+            </div>
+          </div>
+        </div>
+
+<div className="container">
+          <div className="row">
+            <div  className="col this">
+              <div className="row pics">
+                <div className="col-4">
+                  <figure className="figure">
+                    <img src={Moms} className="App-logo img-responsive" alt="logo" />
+                      <figcaption class="figure-caption text-right">Music on Main Street</figcaption>                          
+                  </figure>
+                </div>
+                <div className="col-4">
+                <figure className="figure">
+                    <img src={Moms3} className="App-logo img-responsive" alt="logo" />
+                      <figcaption class="figure-caption text-right">Music on Main Street</figcaption>                          
+                  </figure>
+                </div>
+                <div className="col-4">
+                <figure className="figure">
+                    <img src={Moms6} className="App-logo img-responsive" alt="logo" />
+                      <figcaption class="figure-caption text-right">Music on Main Street</figcaption>                          
+                  </figure>
+                </div>
+                <div className="col-4">
+                <figure className="figure">
+                    <img src={Band5} className="App-logo img-responsive" alt="logo" />
+                      <figcaption class="figure-caption text-right">Music on Main Street</figcaption>                          
+                  </figure>
+                </div>
+                <div className="col-4">
+                <figure className="figure">
+                    <img src={Moms5} className="App-logo img-responsive" alt="logo" />
+                      <figcaption class="figure-caption text-right">Music on Main Street</figcaption>                          
+                  </figure>
+                </div>
+                <div className="col-4">
+                <figure className="figure">
+                    <img src={TGR} className="App-logo img-responsive" alt="logo" />
+                      <figcaption class="figure-caption text-right">The Green Room</figcaption>                          
+                  </figure>
+                </div>
+                <div className="col-4">
+                <figure className="figure">
+                    <img src={Band6} className="App-logo img-responsive" alt="logo" />
+                      <figcaption class="figure-caption text-right">The Green Room</figcaption>                          
+                  </figure>
+                </div>
+                <div className="col-4">
+                <figure className="figure">
+                    <img src={Band2} className="App-logo img-responsive" alt="logo" />
+                      <figcaption class="figure-caption text-right">From The Earth Brewing</figcaption>                          
+                  </figure>
+                </div>
+                <div className="col-4">
+                <figure className="figure">
+                    <img src={Band3} className="App-logo img-responsive" alt="logo" />
+                      <figcaption class="figure-caption text-right">Terminal West</figcaption>                          
+                  </figure>
+                </div>
+                <div className="col-4">
+                <figure className="figure">
+                    <img src={Band4} className="App-logo img-responsive" alt="logo" />
+                      <figcaption class="figure-caption text-right">BRAG (Bicycle Ride Across Georgia)</figcaption>                          
+                  </figure>
+                </div>
+                <div className="col-4">
+                <figure className="figure">
+                    <img src={BRAG} className="App-logo img-responsive" alt="logo" />
+                      <figcaption class="figure-caption text-right">BRAG (Bicycle Ride Across Georgia)</figcaption>                          
+                  </figure>
+                </div>
+                <div className="col-4">
+                <figure className="figure">
+                    <img src={Porch2} className="App-logo img-responsive" alt="logo" />
+                      <figcaption class="figure-caption text-right">Porchfest 2020</figcaption>                          
+                  </figure>
+                </div>
+                <div className="col-4">
+                <figure className="figure">
+                    <img src={Porch1} className="App-logo img-responsive" alt="logo" />
+                      <figcaption class="figure-caption text-right">Porchfest 2020</figcaption>                          
+                  </figure>
+                </div>
+                <div className="col-4">
+                <figure className="figure">
+                    <img src={F5} className="App-logo img-responsive" alt="logo" />
+                      <figcaption class="figure-caption text-right"></figcaption>                          
+                  </figure>
+                </div>
+                <div className="col-4">
+                <figure className="figure">
+                    <img src={F4} className="App-logo img-responsive" alt="logo" />
+                      <figcaption class="figure-caption text-right"></figcaption>                          
+                  </figure>
+                </div>
+                <div className="col-4">
+                <figure className="figure">
+                    <img src={F3} className="App-logo img-responsive" alt="logo" />
+                      <figcaption class="figure-caption text-right"></figcaption>                          
+                  </figure>
+                </div>
+                <div className="col-4">
+                <figure className="figure">
+                    <img src={F2} className="App-logo img-responsive" alt="logo" />
+                      <figcaption class="figure-caption text-right"></figcaption>                          
+                  </figure>
+                </div>
+                <div className="col-4">
+                <figure className="figure">
+                    <img src={F1} className="App-logo img-responsive" alt="logo" />
+                      <figcaption class="figure-caption text-right"></figcaption>                          
+                  </figure>
+                </div>
+              </div>
+            </div>
+          </div>
+          </div>
