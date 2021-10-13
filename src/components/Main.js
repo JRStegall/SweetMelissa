@@ -27,13 +27,14 @@ import AS from "../Images/adam.jpeg";
 function Main(){
     return(
       <div className="Main">
+        <div class="para">
         <h5>
        We LOVE all things Allman! <br/> 
        More than that, we have a passion for playing music and helping to keep The Allman Brothers music alive!
         </h5>
         <h6>Like us on Facebook, stay tuned for future events and SUPPORT LOCAL MUSIC!!</h6>
         <h6>Since our beginning, we have been fortunate to play with some truly amazing musicians from the Atlanta music scene. <br/>. We are greatful to each and everyone who has joined us on this venture!</h6>
-        
+        </div>
         <br/>
         <br/>
         
@@ -41,40 +42,40 @@ function Main(){
       <h5>Our current lineup:</h5>
       <div>
             
-            <div className="container-fluid carousel">
-            <Carousel interval={5000} keyBoard={false} pauseOnHover={true} style={{ 'width': '800px'}}>
-                    <Carousel.Item style={{ "height": "600px" }}>
-                        <img style={{ "height": "600px" }} className="d-block w-100"  src={Mel} alt="MOMS 10/2"></img>
+            <div className="container-fluid ">
+            <Carousel  interval={5000} keyBoard={false} pauseOnHover={true} >
+                    <Carousel.Item >
+                        <img  className="d-block w-100"  src={Mel} alt="MOMS 10/2"></img>
                     <Carousel.Caption>
                         <h5>Melissa Goehner - Vocals</h5>
                     </Carousel.Caption>
                     </Carousel.Item>
-                    <Carousel.Item style={{ 'height': '600px' }}>
-                        <img style={{ 'height': '600px' }} className="d-block w-100" src={JB} alt="MOMS 10/2"></img>
+                    <Carousel.Item >
+                        <img  className="d-block w-100" src={JB} alt="MOMS 10/2"></img>
                         <Carousel.Caption>
                             <h5>Johnny Barret - Bass/Vocals</h5>
                     </Carousel.Caption>
                     </Carousel.Item>
-                    <Carousel.Item style={{ 'height': '600px' }}>
-                        <img style={{ 'height': '600px' }} className="d-block w-100" src={AK} alt="MOMS 10/2"></img>
+                    <Carousel.Item >
+                        <img  className="d-block w-100" src={AK} alt="MOMS 10/2"></img>
                         <Carousel.Caption>
                             <h5>Aaron Kaufman - Drums</h5>
                     </Carousel.Caption>
               </Carousel.Item>
-              <Carousel.Item style={{ 'height': '600px' }}>
-                        <img style={{ 'height': '600px' }} className="d-block w-100" src={DR} alt="MOMS 10/2"></img>
+              <Carousel.Item >
+                        <img  className="d-block w-100" src={DR} alt="MOMS 10/2"></img>
                         <Carousel.Caption>
                             <h5>Diane Rabson - Keys</h5>
                     </Carousel.Caption>
               </Carousel.Item>
-              <Carousel.Item style={{ 'height': '600px' }}>
-                        <img style={{ 'height': '600px' }} className="d-block w-100" src={CR} alt="MOMS 10/2"></img>
+              <Carousel.Item >
+                        <img  className="d-block w-100" src={CR} alt="MOMS 10/2"></img>
                         <Carousel.Caption>
                             <h5>Chris "Critter" Ricker - Guitar</h5>
                     </Carousel.Caption>
               </Carousel.Item>
-              <Carousel.Item style={{ 'height': '600px' }}>
-                        <img style={{ 'height': '600px' }} className="d-block w-100" src={JS} alt="MOMS 10/2"></img>
+              <Carousel.Item >
+                        <img  className="d-block w-100" src={JS} alt="MOMS 10/2"></img>
                         <Carousel.Caption>
                             <h5>Jeremy Stegall - Guitar/Vocals</h5>
                     </Carousel.Caption>
@@ -82,12 +83,11 @@ function Main(){
               
                 </Carousel>
             </div>
-        </div>
+          </div>
         </div>
         
         
-<br/>
-<br/>
+
 
       
       <div className="container band">
@@ -165,9 +165,7 @@ function Main(){
           </div>
         </div>
       </div>
-<br/>    
-<br/>
-<br/>
+
  
       </div>
     )

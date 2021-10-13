@@ -2,7 +2,7 @@ import React from 'react';
 // import { Link } from 'react-router-dom';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
-import Set from './SetList';
+// import Set from './components/SetList';
 
 function Navigate(){
     return (
@@ -17,7 +17,8 @@ function Navigate(){
 
     </Nav>
     
-  </Navbar.Collapse>
+        </Navbar.Collapse>
+        
 </Navbar>
     )
 }
