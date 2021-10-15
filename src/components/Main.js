@@ -32,7 +32,7 @@ function Main() {
         <h5>Our current lineup:</h5>
         <div>
           <div className="container-fluid ">
-            <Carousel interval={5000} keyBoard={false} pauseOnHover={true}>
+            <Carousel fade interval={5000} keyBoard={false} pauseOnHover={true}>
               <Carousel.Item>
                 <img
                   className="d-block w-100 mel"
