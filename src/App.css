@@ -18,17 +18,17 @@
   max-width: 100%;
 }
 
-@media (prefers-reduced-motion: no-preference) {
+/* @media (prefers-reduced-motion: no-preference) {
   .App-logo {
-    /* animation: App-logo-spin infinite 30s linear; */
+    animation: App-logo-spin infinite 30s linear;
   }
-}
+} */
 
 .App-header {
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
-  /* margin-top: 5%; */
+  padding-top: 1%;
   max-width: 80%;
   height: auto;
   margin: auto;
@@ -50,6 +50,10 @@
   }
 }
 
+li {
+  list-style: none;
+}
+
 .Main {
   color: antiquewhite;
 }
@@ -67,7 +71,7 @@
 .band {
   background-color: rgba(241, 229, 210, 0.5);
   padding-top: 3%;
-  padding-bottom: 3%;
+  padding-bottom: 10%;
   width: 90%;
   margin: 0 auto;
 }
@@ -79,4 +83,106 @@
 .figure-caption {
   color: blanchedalmond;
   font-size: 8px;
+}
+
+.xtras {
+  color: blanchedalmond;
+  font-size: 6px;
+  padding-top: 5%;
+}
+
+.list {
+  padding-top: 8%;
+}
+
+.gallery {
+  padding-top: 5%;
+}
+
+.aaron {
+  height: 810px;
+}
+
+.diane {
+  height: 810px;
+}
+
+.crit {
+  height: 810px;
+}
+
+/*****START MEDIA QUERY********/
+
+@media only screen and (min-width: 300px) and (max-width: 700px) {
+  .list {
+    padding-top: 20%;
+  }
+
+  .gallery {
+    padding-top: 30%;
+    padding-bottom: 50%;
+  }
+
+  .xtras {
+    padding-top: 20%;
+  }
+
+  .navbar {
+    margin-bottom: 10%;
+  }
+
+  .aaron {
+    height: 236px;
+  }
+
+  .diane {
+    height: 236px;
+  }
+
+  .crit {
+    height: 236px;
+  }
+}
+
+@media only screen and (min-width: 700px) and (max-width: 1000px) {
+  .list {
+    padding-top: 20%;
+  }
+
+  .gallery {
+    padding-top: 5%;
+    padding-bottom: 5%;
+  }
+
+  .xtras {
+    padding-top: 20%;
+  }
+
+  .navbar {
+    margin-bottom: 10%;
+  }
+
+  .mel {
+    height: 236px;
+  }
+
+  .jb {
+    height: 236px;
+  }
+
+  .aaron {
+    height: 236px;
+  }
+
+  .diane {
+    height: 236px;
+  }
+
+  .crit {
+    height: 236px;
+  }
+
+  .js {
+    height: 236px;
+  }
 }
