@@ -15,7 +15,7 @@ import { Route } from "react-router";
 function Xtras() {
   return (
     <div className="Main container band xtras">
-      <h6>
+      <h6 id="xtracap">
         Since our beginning, we have been fortunate to play with some truly
         amazing musicians from the Atlanta music scene. <br /> We are greatful
         to each and everyone who has joined us on this venture!

@@ -21,15 +21,11 @@ function Main() {
           More than that, we have a passion for playing music and helping to
           keep The Allman Brothers music alive!
         </h5>
-        <h6>
-          Like us on Facebook, stay tuned for future events and SUPPORT LOCAL
-          MUSIC!!
-        </h6>
       </div>
       <br />
 
       <div className="container band">
-        <h5>Our current lineup:</h5>
+        <h5 id="lineuptag">Our current lineup:</h5>
         <div>
           <div className="container-fluid ">
             <Carousel fade interval={5000} keyBoard={false} pauseOnHover={true}>
@@ -80,6 +76,10 @@ function Main() {
             </Carousel>
           </div>
         </div>
+        <h6 id="fbcap">
+          Like us on Facebook, stay tuned for future events and SUPPORT LOCAL
+          MUSIC!!
+        </h6>
       </div>
     </div>
   );

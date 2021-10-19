@@ -40,7 +40,7 @@ function ShowList() {
   return (
     <div className="Main container band gallery">
       <div className="container-fluid carousel">
-        <h5>Some of our recent shows and events...</h5>
+        <h5 id="shows">Some of our recent shows and events...</h5>
         <Carousel
           className="carousel"
           fade
