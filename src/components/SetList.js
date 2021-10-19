@@ -1,10 +1,38 @@
 import React from "react";
 import { Route } from "react-router";
+import SteadyHand from "../Images/steadyhand.jpeg";
 
 function Set() {
   return (
     <div className="Main band container">
       <div className="list row">
+        <div className="col-12">
+          <h4>Upcoming Events</h4>
+          <ul>
+            <li>
+              <img
+                src={SteadyHand}
+                className="steady img-responsive"
+                alt="logo"
+              />
+              <a
+                href="https://steadyhandbeer.com/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                {" "}
+                Stead Hand Beer Company{" "}
+              </a>{" "}
+              - Friday, November 12 @ 4pm
+            </li>
+          </ul>
+          <hr />
+        </div>
+
+        <div className="col-12">
+          <h4>Songs You Might Hear...</h4>
+        </div>
+
         <div className="col-lg-6 col-sm-12">
           <ul>
             <li>Don't Want You No More</li>
@@ -24,11 +52,11 @@ function Set() {
             <li>One Way Out</li>
             <li>You Don't Love Me</li>
             <li>Midnight Rider</li>
+            <li>Hot'Lanta</li>
           </ul>
         </div>
         <div className="col-lg-6 col-sm-12">
           <ul>
-            <li>Hot'Lanta</li>
             <li>Mountain Jam</li>
             <li>Ain't Waistin' Time No More</li>
             <li>Les Brers In A Minor</li>
@@ -42,6 +70,7 @@ function Set() {
             <li>Soulshine</li>
             <li>No One To Run With</li>
             <li>Mean Woman Blues</li>
+            <li>Woman Across The River</li>
             <li>The High Cost of Low Living</li>
             <li>Instrumental Madness</li>
             <li>Midnight In Harlem</li>

@@ -29,7 +29,7 @@ function Navigate() {
 
               <Nav.Item>
                 <Nav.Link eventKey="3" as={Link} className="link" to="/setlist">
-                  Set List
+                  Events/Set List
                 </Nav.Link>
               </Nav.Item>
 
@@ -41,7 +41,7 @@ function Navigate() {
 
               <Nav.Item>
                 <Nav.Link
-                  eventKey="5"
+                  eventKey="6"
                   className="link"
                   href="mailto:SweetMelissa.ramblinmen@gmail.com?subject = Feedback&body = Message"
                 >
@@ -51,7 +51,7 @@ function Navigate() {
 
               <Nav.Item>
                 <Nav.Link
-                  eventKey="6"
+                  eventKey="7"
                   className="link"
                   href="https://www.facebook.com/sweetmelissaandtheramblinmen"
                   target="_blank"

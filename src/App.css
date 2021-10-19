@@ -132,8 +132,16 @@ h4,
   padding-top: 8%;
 }
 
+.steady {
+  height: 55px;
+}
+
 .gallery {
+  background-color: rgba(241, 229, 210, 0.5);
   padding-top: 5%;
+  padding-bottom: 5%;
+  width: 90%;
+  margin: 0 auto;
 }
 
 .gallery .d-block {

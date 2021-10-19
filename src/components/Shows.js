@@ -38,9 +38,8 @@ import { Route } from "react-router";
 
 function ShowList() {
   return (
-    <div className="Main container band gallery">
+    <div className="Main container gallery">
       <div className="container-fluid carousel">
-        <h5 id="shows">Some of our recent shows and events...</h5>
         <Carousel
           className="carousel"
           fade
@@ -261,6 +260,8 @@ function ShowList() {
             </Carousel.Caption>
           </Carousel.Item>
         </Carousel>
+
+        <h5 id="shows">Some of our recent shows and events...</h5>
       </div>
     </div>
   );
