@@ -124,6 +124,10 @@ li {
   padding-top: 5%;
 }
 
+.gallery .d-block {
+  height: 600px;
+}
+
 .mel,
 .js,
 .jb,
@@ -145,7 +149,7 @@ li {
     padding-bottom: 50%;
   }
 
-  .d-block {
+  .gallery .d-block {
     height: 300px;
   }
 
