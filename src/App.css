@@ -61,6 +61,8 @@ li {
 .bandName {
   font-family: Snell-Roundhand, cursive;
   font-style: oblique;
+  font-weight: 500;
+  font-variant: small-caps;
 }
 
 .Main {
