@@ -61,8 +61,9 @@ li {
 .bandName {
   font-family: Snell-Roundhand, cursive;
   font-style: oblique;
-  font-weight: 500;
+  font-weight: bold;
   font-variant: small-caps;
+  text-shadow: 1px 1.5px rgba(194, 170, 170, 0.5);
 }
 
 .Main {
@@ -79,8 +80,9 @@ li {
 #shows,
 #xtracap,
 .para,
-.figure-caption {
-  text-shadow: 2px 1px rgba(46, 45, 43, 0.5);
+.figure-caption,
+.list {
+  text-shadow: 1.5px 1px rgba(46, 45, 43, 0.5);
 }
 
 .para {
