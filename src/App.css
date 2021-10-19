@@ -62,8 +62,7 @@ li {
   font-family: Snell-Roundhand, cursive;
   font-style: oblique;
   font-weight: bold;
-  font-variant: small-caps;
-  text-shadow: 1px 1.5px rgba(194, 170, 170, 0.5);
+  text-shadow: 1px 1px rgba(194, 170, 170, 0.5);
 }
 
 .Main {
