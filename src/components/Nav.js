@@ -14,37 +14,51 @@ function Navigate() {
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse id="responsive-navbar-nav">
-            <Nav className="me-auto">
-              <Nav.Link as={Link} className="link" to="/xtras">
-                Friends of the Band
-              </Nav.Link>
+            <Nav className="mr-auto">
+              <Nav.Item>
+                <Nav.Link eventKey="1" as={Link} className="link" to="/xtras">
+                  Friends of the Band
+                </Nav.Link>
+              </Nav.Item>
 
-              <Nav.Link as={Link} className="link" to="/shows">
-                Gallery
-              </Nav.Link>
+              <Nav.Item>
+                <Nav.Link eventKey="2" as={Link} className="link" to="/shows">
+                  Gallery
+                </Nav.Link>
+              </Nav.Item>
 
-              <Nav.Link as={Link} className="link" to="/setlist">
-                Set List
-              </Nav.Link>
+              <Nav.Item>
+                <Nav.Link eventKey="3" as={Link} className="link" to="/setlist">
+                  Set List
+                </Nav.Link>
+              </Nav.Item>
 
-              <Nav.Link as={Link} className="link" to="/music">
-                Music
-              </Nav.Link>
+              <Nav.Item>
+                <Nav.Link eventKey="4" as={Link} className="link" to="/music">
+                  Music
+                </Nav.Link>
+              </Nav.Item>
 
-              <Nav.Link
-                className="link"
-                href="mailto:SweetMelissa.ramblinmen@gmail.com?subject = Feedback&body = Message"
-              >
-                Contact
-              </Nav.Link>
+              <Nav.Item>
+                <Nav.Link
+                  eventKey="5"
+                  className="link"
+                  href="mailto:SweetMelissa.ramblinmen@gmail.com?subject = Feedback&body = Message"
+                >
+                  Contact
+                </Nav.Link>
+              </Nav.Item>
 
-              <Nav.Link
-                className="link"
-                href="https://www.facebook.com/sweetmelissaandtheramblinmen"
-                target="_blank"
-              >
-                Facebook
-              </Nav.Link>
+              <Nav.Item>
+                <Nav.Link
+                  eventKey="6"
+                  className="link"
+                  href="https://www.facebook.com/sweetmelissaandtheramblinmen"
+                  target="_blank"
+                >
+                  Facebook
+                </Nav.Link>
+              </Nav.Item>
             </Nav>
           </Navbar.Collapse>
         </Container>

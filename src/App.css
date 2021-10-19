@@ -74,6 +74,11 @@ li {
   font-style: italic;
 }
 
+h4 {
+  font-style: oblique;
+}
+
+h4,
 #lineuptag,
 #fbcap,
 #shows,
@@ -105,6 +110,10 @@ li {
 
 .band .figure-caption {
   font-size: large;
+}
+
+.figure img {
+  height: 500px;
 }
 
 .figure-caption {
@@ -171,6 +180,10 @@ li {
   .js,
   .crit {
     height: 236px;
+  }
+
+  .figure img {
+    height: 400px;
   }
 }
 

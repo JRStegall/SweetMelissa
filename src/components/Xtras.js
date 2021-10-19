@@ -15,6 +15,8 @@ import { Route } from "react-router";
 function Xtras() {
   return (
     <div className="Main container band xtras">
+      <h4>Featured Artists</h4>
+      <hr />
       <h6 id="xtracap">
         Since our beginning, we have been fortunate to play with some truly
         amazing musicians from the Atlanta music scene. <br /> We are greatful
@@ -37,6 +39,7 @@ function Xtras() {
                     Barry Richman - guitar
                   </figcaption>
                 </a>
+                <hr />
               </figure>
             </div>
 
@@ -53,6 +56,7 @@ function Xtras() {
                     Joel Edwards - keys
                   </figcaption>
                 </a>
+                <hr />
               </figure>
             </div>
 
@@ -73,8 +77,10 @@ function Xtras() {
                     Richie Jones - drums
                   </figcaption>
                 </a>
+                <hr />
               </figure>
             </div>
+
             <div className="col-sm-8 col-lg-6">
               <figure className="figure">
                 <img
@@ -92,8 +98,10 @@ function Xtras() {
                     Damian Kapcala - keys
                   </figcaption>
                 </a>
+                <hr />
               </figure>
             </div>
+
             <div className="col-sm-8 col-lg-6">
               <figure className="figure">
                 <img
@@ -111,6 +119,7 @@ function Xtras() {
                     Trenton Scicola - drums
                   </figcaption>
                 </a>
+                <hr />
               </figure>
             </div>
 
@@ -131,8 +140,10 @@ function Xtras() {
                     Jesse Sunga - guitar
                   </figcaption>
                 </a>
+                <hr />
               </figure>
             </div>
+
             <div className="col-sm-8 col-lg-6">
               <figure className="figure">
                 <img src={TN} className="App-logo img-responsive" alt="Tyler" />
@@ -146,8 +157,10 @@ function Xtras() {
                     Tyler Neal - guitar
                   </figcaption>
                 </a>
+                <hr />
               </figure>
             </div>
+
             <div className="col-sm-8 col-lg-6">
               <figure className="figure">
                 <img
@@ -165,8 +178,10 @@ function Xtras() {
                     Michael Plunkett - guitar
                   </figcaption>
                 </a>
+                <hr />
               </figure>
             </div>
+
             <div className="col-sm-8 col-lg-6">
               <figure className="figure">
                 <img
@@ -183,8 +198,10 @@ function Xtras() {
                     Adrian Ash - drums
                   </figcaption>
                 </a>
+                <hr />
               </figure>
             </div>
+
             <div className="col-sm-8 col-lg-6">
               <figure className="figure">
                 <img
@@ -202,8 +219,10 @@ function Xtras() {
                     Justin Beals - guitar
                   </figcaption>
                 </a>
+                <hr />
               </figure>
             </div>
+
             <div className="col-sm-8 col-lg-6">
               <figure className="figure">
                 <img src={AS} className="App-logo img-responsive" alt="Simon" />
@@ -217,6 +236,7 @@ function Xtras() {
                     Adam Simon - keys
                   </figcaption>
                 </a>
+                <hr />
               </figure>
             </div>
           </div>
