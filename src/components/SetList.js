@@ -4,17 +4,13 @@ import SteadyHand from "../Images/steadyhand.jpeg";
 // import MoonShdw from "../Images/mnshdw.jpeg";
 function Set() {
   return (
-    <div className="Main band container">
-      <div className="list row">
+    <div className="Main list container ">
+      <div className="listRow row">
         <div className="col-12">
           <h4>Upcoming Events</h4>
           <ul>
             <li>
-              <img
-                src={SteadyHand}
-                className="steady img-responsive"
-                alt="logo"
-              />
+              <img src={SteadyHand} className="steady" alt="logo" />
               <a
                 href="https://steadyhandbeer.com/"
                 target="_blank"
