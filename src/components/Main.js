@@ -35,26 +35,26 @@ function Main() {
                   src={Mel}
                   alt="Melissa"
                 ></img>
-                <Carousel.Caption>
-                  <h5>Melissa Goehner - Vocals</h5>
+                <Carousel.Caption className="capBkgrnd">
+                  <h6>Melissa Goehner - Vocals</h6>
                 </Carousel.Caption>
               </Carousel.Item>
               <Carousel.Item>
                 <img className="d-block w-100 jb" src={JB} alt="Johnny"></img>
-                <Carousel.Caption>
-                  <h5>Johnny Barret - Bass/Vocals</h5>
+                <Carousel.Caption className="capBkgrnd">
+                  <h6>Johnny Barrett - Bass/Vocals</h6>
                 </Carousel.Caption>
               </Carousel.Item>
               <Carousel.Item>
                 <img className="d-block w-100 aaron" src={AK} alt="Aaron"></img>
-                <Carousel.Caption>
-                  <h5>Aaron Kaufman - Drums</h5>
+                <Carousel.Caption className="capBkgrnd">
+                  <h6>Aaron Kaufman - Drums</h6>
                 </Carousel.Caption>
               </Carousel.Item>
               <Carousel.Item>
                 <img className="d-block w-100 diane" src={DR} alt="Diane"></img>
-                <Carousel.Caption>
-                  <h5>Diane Rabson - Keys</h5>
+                <Carousel.Caption className="capBkgrnd">
+                  <h6>Diane Rabson - Keys</h6>
                 </Carousel.Caption>
               </Carousel.Item>
               <Carousel.Item className="crit">
@@ -63,14 +63,14 @@ function Main() {
                   src={CR}
                   alt="Critter"
                 ></img>
-                <Carousel.Caption>
-                  <h5>Chris "Critter" Ricker - Guitar</h5>
+                <Carousel.Caption className="capBkgrnd">
+                  <h6>Chris "Critter" Ricker - Guitar</h6>
                 </Carousel.Caption>
               </Carousel.Item>
               <Carousel.Item>
                 <img className="d-block w-100 js" src={JS} alt="Jeremy"></img>
-                <Carousel.Caption>
-                  <h5>Jeremy Stegall - Guitar/Vocals</h5>
+                <Carousel.Caption className="capBkgrnd">
+                  <h6>Jeremy Stegall - Guitar/Vocals</h6>
                 </Carousel.Caption>
               </Carousel.Item>
             </Carousel>

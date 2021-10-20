@@ -6,7 +6,7 @@
   background-repeat: no-repeat;
   background-size: cover;
   max-width: 100%;
-  height: auto;
+  min-height: auto;
 }
 
 .App-logo {
@@ -29,7 +29,7 @@
   background-repeat: no-repeat;
   background-size: cover;
   padding-top: 1%;
-  max-width: 80%;
+  max-width: 100%;
   height: auto;
   margin: auto;
   min-height: 100vh;
@@ -50,30 +50,6 @@
   }
 }
 
-li {
-  list-style: none;
-}
-
-.figure a:hover {
-  color: rgb(211, 196, 173);
-}
-
-.bandName {
-  font-family: Snell-Roundhand, cursive;
-  font-style: oblique;
-  font-weight: bold;
-  text-shadow: 1px 1px rgba(194, 170, 170, 0.5);
-}
-
-.Main {
-  color: antiquewhite;
-}
-
-#fbcap {
-  margin-top: 2%;
-  font-style: italic;
-}
-
 h4 {
   font-style: oblique;
 }
@@ -89,16 +65,26 @@ h4,
   text-shadow: 1.5px 1px rgba(46, 45, 43, 0.5);
 }
 
+/***********************NAV PAGE******************/
+
+.bandName {
+  font-family: Snell-Roundhand, cursive;
+  font-style: oblique;
+  font-weight: bold;
+  text-shadow: 1px 1px rgba(194, 170, 170, 0.5);
+}
+
+/**********************MAIN PAGE******************/
+.Main {
+  color: antiquewhite;
+}
+
 .para {
   max-width: 90%;
   margin: auto;
-  text-shadow: 2px 1px rgba(46, 45, 43, 0.5);
 }
 
-.img-responsive {
-  max-width: 100%;
-  height: auto;
-}
+/* .container{} */
 
 .band {
   background-color: rgba(241, 229, 210, 0.5);
@@ -108,8 +94,30 @@ h4,
   margin: 0 auto;
 }
 
-.band .figure-caption {
-  font-size: large;
+.capBkgrnd {
+  background: rgba(115, 116, 118, 0.5);
+  height: auto;
+}
+
+.mel,
+.js,
+.jb,
+.diane,
+.aaron,
+.crit {
+  height: 650px;
+}
+
+#fbcap {
+  margin-top: 2%;
+  font-style: italic;
+}
+
+/*******************XTRAS PAGE********************/
+.xtras {
+  color: blanchedalmond;
+  font-size: 6px;
+  margin-top: 5%;
 }
 
 .figure img {
@@ -122,20 +130,15 @@ h4,
   text-shadow: 1px 1px rgba(14, 13, 13, 0.5);
 }
 
-.xtras {
-  color: blanchedalmond;
-  font-size: 6px;
-  padding-top: 5%;
+.band .figure-caption {
+  font-size: large;
 }
 
-.list {
-  padding-top: 8%;
+.figure a:hover {
+  color: rgb(211, 196, 173);
 }
 
-.steady {
-  height: 40px;
-}
-
+/**************SHOWS PAGE*************************/
 .gallery {
   background-color: rgba(241, 229, 210, 0.5);
   padding-top: 5%;
@@ -148,16 +151,27 @@ h4,
   height: 600px;
 }
 
-.mel,
-.js,
-.jb,
-.diane,
-.aaron,
-.crit {
-  height: 650px;
+/**********************SET LIST PAGE******************/
+
+.list {
+  padding-top: 8%;
 }
 
-/*****START MEDIA QUERY********/
+.steady {
+  height: 40px;
+}
+
+.img-responsive {
+  max-width: 100%;
+  height: auto;
+}
+
+li {
+  list-style: none;
+}
+
+/*****************************START MEDIA QUERY min-width 300*****************************/
+/*****************************START MEDIA QUERY min-width 300*****************************/
 
 @media only screen and (min-width: 300px) and (max-width: 700px) {
   .list {
@@ -165,8 +179,8 @@ h4,
   }
 
   .gallery {
-    padding-top: 30%;
-    padding-bottom: 50%;
+    margin-top: 40%;
+    padding-bottom: 30%;
   }
 
   .gallery .d-block {
@@ -174,11 +188,7 @@ h4,
   }
 
   .xtras {
-    padding-top: 20%;
-  }
-
-  .navbar {
-    margin-bottom: 10%;
+    margin-top: 25%;
   }
 
   .aaron,
@@ -195,18 +205,18 @@ h4,
   }
 }
 
+/*****************************START MEDIA QUERY min-width 700*****************************/
+/*****************************START MEDIA QUERY min-width 700*****************************/
+
 @media only screen and (min-width: 700px) and (max-width: 1000px) {
   .list {
     padding-top: 20%;
   }
 
   .gallery {
-    padding-top: 5%;
-    padding-bottom: 5%;
   }
 
   .xtras {
-    padding-top: 20%;
   }
 
   .navbar {

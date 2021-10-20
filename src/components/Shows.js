@@ -38,7 +38,7 @@ import { Route } from "react-router";
 
 function ShowList() {
   return (
-    <div className="Main container gallery">
+    <div className="Main gallery">
       <div className="container-fluid carousel">
         <Carousel
           className="carousel"

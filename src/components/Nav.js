@@ -9,32 +9,37 @@ function Navigate() {
     <div className="navbar">
       <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark" fixed="top">
         <Container>
-          <Navbar.Brand as={Link} className="link bandName" to="/main">
+          <Navbar.Brand
+            as={Link}
+            eventKey="1"
+            className="link bandName"
+            to="/main"
+          >
             Sweet Melissa and the Ramblin' Men
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse id="responsive-navbar-nav">
             <Nav className="mr-auto">
               <Nav.Item>
-                <Nav.Link eventKey="1" as={Link} className="link" to="/xtras">
+                <Nav.Link eventKey="2" as={Link} className="link" to="/xtras">
                   Friends of the Band
                 </Nav.Link>
               </Nav.Item>
 
               <Nav.Item>
-                <Nav.Link eventKey="2" as={Link} className="link" to="/shows">
+                <Nav.Link eventKey="3" as={Link} className="link" to="/shows">
                   Gallery
                 </Nav.Link>
               </Nav.Item>
 
               <Nav.Item>
-                <Nav.Link eventKey="3" as={Link} className="link" to="/setlist">
+                <Nav.Link eventKey="4" as={Link} className="link" to="/setlist">
                   Events/Set List
                 </Nav.Link>
               </Nav.Item>
 
               <Nav.Item>
-                <Nav.Link eventKey="4" as={Link} className="link" to="/music">
+                <Nav.Link eventKey="5" as={Link} className="link" to="/music">
                   Music
                 </Nav.Link>
               </Nav.Item>

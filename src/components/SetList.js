@@ -1,7 +1,7 @@
 import React from "react";
 import { Route } from "react-router";
 import SteadyHand from "../Images/steadyhand.jpeg";
-
+import MoonShdw from "../Images/mnshdw.jpeg";
 function Set() {
   return (
     <div className="Main band container">
@@ -23,9 +23,24 @@ function Set() {
                 {" "}
                 Stead Hand Beer Company{" "}
               </a>{" "}
-              - Friday, November 12 @ 4pm
+              - Friday, November 12 @ 6pm
             </li>
           </ul>
+
+          {/* <ul>
+            <li>
+              <img
+                src={MoonShdw}
+                className="steady img-responsive"
+                alt="logo"
+              />
+              <a href="https://msttucker.com/" target="_blank" rel="noreferrer">
+                {" "}
+                Moon Shadow Tavern{" "}
+              </a>{" "}
+              - Friday, December 17 @ 8pm
+            </li>
+          </ul> */}
           <hr />
         </div>
 
