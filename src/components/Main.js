@@ -64,7 +64,7 @@ function Main() {
                   alt="Critter"
                 ></img>
                 <Carousel.Caption className="capBkgrnd">
-                  <h6>Chris "Critter" Ricker - Guitar</h6>
+                  <h6>Chris "Critter" Ricker - Guitar/Vocals</h6>
                 </Carousel.Caption>
               </Carousel.Item>
               <Carousel.Item>
