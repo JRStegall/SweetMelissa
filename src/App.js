@@ -5,6 +5,7 @@ import Main from "./components/Main";
 import Shows from "./components/Shows";
 import SetList from "./components/SetList";
 import Xtras from "./components/Xtras";
+import Music from "./components/Music";
 import "./App.css";
 import "./_redirects.txt";
 
@@ -13,6 +14,7 @@ function App() {
     <div className="App">
       <Navigate />
       <Switch>
+        <Route path="/music" component={Music} />
         <Route path="/shows" component={Shows} />
         <Route path="/setlist" component={SetList} />
         <Route path="/xtras" component={Xtras} />

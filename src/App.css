@@ -59,6 +59,7 @@ li {
 }
 
 h4,
+h5,
 #lineuptag,
 #fbcap,
 #shows,
@@ -81,6 +82,7 @@ h4,
 /**********************MAIN PAGE******************/
 .Main {
   color: antiquewhite;
+  min-height: 100%;
 }
 
 .para {
@@ -177,27 +179,33 @@ h4,
   height: 40px;
 }
 
+/**************************MUSIC PAGE*************/
+
+.wndw {
+  margin-top: 5%;
+}
+
+.player {
+  background-color: rgb(187, 184, 179, 0.5);
+  padding-top: 1%;
+  padding-bottom: 5%;
+  margin: auto;
+}
+
+.react-player {
+  padding-top: 2%;
+}
+
+.music-div {
+  padding-top: 5%;
+  height: 160px;
+}
+
 /*****************************START MEDIA QUERY min-width 300*****************************/
 /*****************************START MEDIA QUERY min-width 300*****************************/
 
 @media only screen and (min-width: 300px) and (max-width: 700px) {
-  .list {
-    padding-top: 20%;
-  }
-
-  .gallery {
-    margin-top: 40%;
-    padding-bottom: 30%;
-  }
-
-  .gallery .d-block {
-    height: 300px;
-  }
-
-  .xtras {
-    margin-top: 25%;
-  }
-
+  /*********************MAIN PAGE*****************/
   .aaron,
   .mel,
   .diane,
@@ -207,8 +215,41 @@ h4,
     height: 236px;
   }
 
+  /**********************XTRAS PAGE***************/
+  .xtras {
+    margin-top: 25%;
+  }
+
   .figure img {
     height: 400px;
+  }
+
+  /************************SHOWS PAGE***************/
+  .gallery {
+    margin-top: 40%;
+    padding-bottom: 30%;
+  }
+
+  .gallery .d-block {
+    height: 300px;
+  }
+
+  /**********************SET LIST PAGE**************/
+  .list {
+    padding-top: 20%;
+  }
+
+  /**********************MUSIC PAGE*****************/
+  .wndw {
+    margin-top: 30%;
+    padding-bottom: 30%;
+  }
+
+  .player {
+    width: 95%;
+  }
+  .react-player {
+    width: 90%;
   }
 }
 
