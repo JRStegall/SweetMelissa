@@ -1,7 +1,7 @@
 import React from "react";
 import { Route } from "react-router";
 import SteadyHand from "../Images/steadyhand.jpeg";
-import MoonShdw from "../Images/mnshdw.jpeg";
+// import MoonShdw from "../Images/mnshdw.jpeg";
 function Set() {
   return (
     <div className="Main band container">
