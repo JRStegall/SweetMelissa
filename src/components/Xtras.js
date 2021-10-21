@@ -45,7 +45,11 @@ function Xtras() {
 
             <div className="col-sm-8 col-lg-6">
               <figure className="figure">
-                <img src={JE} className="App-logo img-responsive" alt="Joel" />
+                <img
+                  src={JE}
+                  className="App-logo img-responsive joel"
+                  alt="Joel"
+                />
                 <a
                   href="https://www.facebook.com/JoelEdwardsATL"
                   target="_blank"
@@ -84,27 +88,6 @@ function Xtras() {
             <div className="col-sm-8 col-lg-6">
               <figure className="figure">
                 <img
-                  src={DK}
-                  className="App-logo img-responsive"
-                  alt="Damian"
-                />
-                <a
-                  href="https://www.facebook.com/damian.kapcala"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  {" "}
-                  <figcaption class="figure-caption text-right">
-                    Damian Kapcala - keys
-                  </figcaption>
-                </a>
-                <hr />
-              </figure>
-            </div>
-
-            <div className="col-sm-8 col-lg-6">
-              <figure className="figure">
-                <img
                   src={TS}
                   className="App-logo img-responsive"
                   alt="Trenton"
@@ -117,6 +100,27 @@ function Xtras() {
                   {" "}
                   <figcaption class="figure-caption text-right">
                     Trenton Scicola - drums
+                  </figcaption>
+                </a>
+                <hr />
+              </figure>
+            </div>
+
+            <div className="col-sm-8 col-lg-6">
+              <figure className="figure">
+                <img
+                  src={DK}
+                  className="App-logo img-responsive"
+                  alt="Damian"
+                />
+                <a
+                  href="https://www.facebook.com/damian.kapcala"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  {" "}
+                  <figcaption class="figure-caption text-right">
+                    Damian Kapcala - keys
                   </figcaption>
                 </a>
                 <hr />

@@ -149,6 +149,10 @@ h5,
   color: rgb(211, 196, 173);
 }
 
+.joel {
+  width: 500px;
+}
+
 /**************SHOWS PAGE*************************/
 .gallery {
   background-color: rgba(241, 229, 210, 0.5);
