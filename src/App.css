@@ -153,6 +153,13 @@ h5,
   width: 500px;
 }
 
+.caption {
+  font-size: small;
+}
+
+.caption a {
+  color: blanchedalmond;
+}
 /**************SHOWS PAGE*************************/
 .gallery {
   background-color: rgba(241, 229, 210, 0.5);
@@ -191,6 +198,7 @@ h5,
 
 .player {
   background-color: rgb(187, 184, 179, 0.5);
+
   padding-top: 1%;
   padding-bottom: 5%;
   margin: auto;

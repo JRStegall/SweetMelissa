@@ -10,6 +10,7 @@ import MP from "../Images/michael.jpeg";
 import AA from "../Images/adrian.jpeg";
 import Justin from "../Images/justin.jpeg";
 import AS from "../Images/adam.jpeg";
+import AWG from "../Images/allen.jpeg";
 import { Route } from "react-router";
 
 function Xtras() {
@@ -39,6 +40,16 @@ function Xtras() {
                     Barry Richman - guitar
                   </figcaption>
                 </a>
+                <p className="caption text-right">
+                  <a href="https://barryrichmanband.bandzoogle.com/press-kit-name-dropping">
+                    {" "}
+                    The Barry Richman Band, The Allman Brothers Band, Gov't
+                    Mule, Derek Trucks, Eric Clapton, Bruce Hampton, Zack Brown,
+                    Little Feat, John Lee Hooker, Mike Gordon &amp; John Fishman
+                    (Phish) <br />
+                    Buddy Miles (Band of Gypsies)
+                  </a>
+                </p>
                 <hr />
               </figure>
             </div>
@@ -60,6 +71,11 @@ function Xtras() {
                     Joel Edwards - keys
                   </figcaption>
                 </a>
+                <p className="caption text-right">
+                  The Barry Richman Band, Louise Mandrell, Chuck Berry, Mel
+                  Torme, <br />
+                  Big &amp; Rich, Cheap Trick, Pop Tart Monkeys
+                </p>
                 <hr />
               </figure>
             </div>
@@ -81,6 +97,9 @@ function Xtras() {
                     Richie Jones - drums
                   </figcaption>
                 </a>
+                <p className="caption text-right">
+                  Potch, Dot_Line Project, Donna Hopkins, Ralph Rodenberry
+                </p>
                 <hr />
               </figure>
             </div>
@@ -103,6 +122,7 @@ function Xtras() {
                   </figcaption>
                 </a>
                 <hr />
+                <p className="caption text-right"></p>
               </figure>
             </div>
 
@@ -123,6 +143,7 @@ function Xtras() {
                     Damian Kapcala - keys
                   </figcaption>
                 </a>
+                <p className="caption text-right"></p>
                 <hr />
               </figure>
             </div>
@@ -144,6 +165,28 @@ function Xtras() {
                     Jesse Sunga - guitar
                   </figcaption>
                 </a>
+                <p className="caption text-right"></p>
+                <hr />
+              </figure>
+            </div>
+            <div className="col-sm-8 col-lg-6">
+              <figure className="figure">
+                <img
+                  src={AWG}
+                  className="App-logo img-responsive"
+                  alt="Allen"
+                />
+                <a
+                  href="https://www.facebook.com/jessesunga"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  {" "}
+                  <figcaption class="figure-caption text-right">
+                    Allen Welty-Green - keys
+                  </figcaption>
+                </a>
+                <p className="caption text-right"></p>
                 <hr />
               </figure>
             </div>
@@ -161,6 +204,7 @@ function Xtras() {
                     Tyler Neal - guitar
                   </figcaption>
                 </a>
+                <p className="caption text-right"></p>
                 <hr />
               </figure>
             </div>
@@ -182,6 +226,12 @@ function Xtras() {
                     Michael Plunkett - guitar
                   </figcaption>
                 </a>
+                <p className="caption text-right">
+                  <a href="https://www.facebook.com/skyballsmusic">
+                    {" "}
+                    Sky Balls: Atlanta's Premiere Phish Tribute Band
+                  </a>
+                </p>
                 <hr />
               </figure>
             </div>
@@ -202,6 +252,7 @@ function Xtras() {
                     Adrian Ash - drums
                   </figcaption>
                 </a>
+                <p className="caption text-right"></p>
                 <hr />
               </figure>
             </div>
@@ -223,6 +274,12 @@ function Xtras() {
                     Justin Beals - guitar
                   </figcaption>
                 </a>
+                <p className="caption text-right">
+                  <a href="https://facebook.com/jackwagonrocks">Jackwagon</a>,{" "}
+                  <a href="https://www.facebook.com/Lizzyinajar/">
+                    Lizzy In A Jar: Thin Lizzy Tribute
+                  </a>
+                </p>
                 <hr />
               </figure>
             </div>
@@ -240,6 +297,12 @@ function Xtras() {
                     Adam Simon - keys
                   </figcaption>
                 </a>
+                <p className="caption text-right">
+                  <a href="https://www.facebook.com/skyballsmusic">
+                    {" "}
+                    Sky Balls: Atlanta's Premiere Phish Tribute Band
+                  </a>
+                </p>
                 <hr />
               </figure>
             </div>
