@@ -10,7 +10,7 @@ import DR from "../Images/diane.jpeg";
 
 function Main() {
   return (
-    <div className="Main">
+    <div className="Main" id="root">
       <div className="App-header">
         <img src={Bandlogo} className="App-logo logo-responsive" alt="logo" />
       </div>
