@@ -39,229 +39,348 @@ import { Route } from "react-router";
 function ShowList() {
   return (
     <div className="Main gallery">
-      <div className="container-fluid carousel">
-        <Carousel
-          className="carousel"
-          fade
-          interval={5000}
-          keyBoard={false}
-          pauseOnHover={true}
-        >
-          <Carousel.Item>
-            <img className="d-block w-100" src={Moms7} alt="MOMS 10/2"></img>
-            <Carousel.Caption>
-              <h5>Music On Main Street - 10/02/2021</h5>
-            </Carousel.Caption>
-          </Carousel.Item>
-          <Carousel.Item>
-            <img className="d-block w-100" src={Moms} alt="MOMS 10/2"></img>
-            <Carousel.Caption>
-              <h5>Music On Main Street - 10/02/2021</h5>
-            </Carousel.Caption>
-          </Carousel.Item>
-          <Carousel.Item>
-            <img className="d-block w-100" src={Moms3} alt="MOMS 10/2"></img>
-            <Carousel.Caption>
-              <h5>Music On Main Street - 10/02/2021</h5>
-            </Carousel.Caption>
-          </Carousel.Item>
-          <Carousel.Item>
-            <img
-              className="d-block w-100"
-              src={MomSelfie}
-              alt="MOMS 10/2"
-            ></img>
-            <Carousel.Caption>
-              <h5>Music On Main Street - 10/02/2021</h5>
-            </Carousel.Caption>
-          </Carousel.Item>
-          <Carousel.Item>
-            <img className="d-block w-100" src={Moms12} alt="MOMS 10/2"></img>
-            <Carousel.Caption>
-              <h5>Music On Main Street - 10/02/2021</h5>
-            </Carousel.Caption>
-          </Carousel.Item>
+      <div className="container">
+        <div id="shows" className="para">
+          <h5>Some of our recent shows and events...</h5>
+        </div>
+        <div className="container-fluid carousel band">
+          <div className="row">
+            <div className="col">
+              <Carousel
+                className="carousel"
+                fade
+                interval={5000}
+                keyBoard={false}
+                pauseOnHover={true}
+              >
+                <Carousel.Item>
+                  <img
+                    className="d-block w-100"
+                    src={Moms7}
+                    alt="MOMS 10/2"
+                  ></img>
+                  <Carousel.Caption>
+                    <h5>Music On Main Street - 10/02/2021</h5>
+                  </Carousel.Caption>
+                </Carousel.Item>
+                <Carousel.Item>
+                  <img
+                    className="d-block w-100"
+                    src={Moms}
+                    alt="MOMS 10/2"
+                  ></img>
+                  <Carousel.Caption>
+                    <h5>Music On Main Street - 10/02/2021</h5>
+                  </Carousel.Caption>
+                </Carousel.Item>
+                <Carousel.Item>
+                  <img
+                    className="d-block w-100"
+                    src={Moms3}
+                    alt="MOMS 10/2"
+                  ></img>
+                  <Carousel.Caption>
+                    <h5>Music On Main Street - 10/02/2021</h5>
+                  </Carousel.Caption>
+                </Carousel.Item>
+                <Carousel.Item>
+                  <img
+                    className="d-block w-100"
+                    src={MomSelfie}
+                    alt="MOMS 10/2"
+                  ></img>
+                  <Carousel.Caption>
+                    <h5>Music On Main Street - 10/02/2021</h5>
+                  </Carousel.Caption>
+                </Carousel.Item>
+                <Carousel.Item>
+                  <img
+                    className="d-block w-100"
+                    src={Moms12}
+                    alt="MOMS 10/2"
+                  ></img>
+                  <Carousel.Caption>
+                    <h5>Music On Main Street - 10/02/2021</h5>
+                  </Carousel.Caption>
+                </Carousel.Item>
 
-          <Carousel.Item>
-            <img className="d-block w-100" src={Moms8} alt="MOMS 10/2"></img>
-            <Carousel.Caption>
-              <h5>Music On Main Street - 10/02/2021</h5>
-            </Carousel.Caption>
-          </Carousel.Item>
-          <Carousel.Item>
-            <img className="d-block w-100" src={Moms22} alt="MOMS 10/2"></img>
-            <Carousel.Caption>
-              <h5>Music On Main Street - 10/02/2021</h5>
-            </Carousel.Caption>
-          </Carousel.Item>
-          <Carousel.Item>
-            <img className="d-block w-100" src={Melissa} alt="MOMS 10/2"></img>
-            <Carousel.Caption>
-              <h5>Music On Main Street - 10/02/2021</h5>
-            </Carousel.Caption>
-          </Carousel.Item>
+                <Carousel.Item>
+                  <img
+                    className="d-block w-100"
+                    src={Moms8}
+                    alt="MOMS 10/2"
+                  ></img>
+                  <Carousel.Caption>
+                    <h5>Music On Main Street - 10/02/2021</h5>
+                  </Carousel.Caption>
+                </Carousel.Item>
+                <Carousel.Item>
+                  <img
+                    className="d-block w-100"
+                    src={Moms22}
+                    alt="MOMS 10/2"
+                  ></img>
+                  <Carousel.Caption>
+                    <h5>Music On Main Street - 10/02/2021</h5>
+                  </Carousel.Caption>
+                </Carousel.Item>
+                <Carousel.Item>
+                  <img
+                    className="d-block w-100"
+                    src={Melissa}
+                    alt="MOMS 10/2"
+                  ></img>
+                  <Carousel.Caption>
+                    <h5>Music On Main Street - 10/02/2021</h5>
+                  </Carousel.Caption>
+                </Carousel.Item>
 
-          <Carousel.Item>
-            <img className="d-block w-100" src={Moms15} alt="MOMS 10/2"></img>
-            <Carousel.Caption>
-              <h5>Music On Main Street - 10/02/2021</h5>
-            </Carousel.Caption>
-          </Carousel.Item>
-          <Carousel.Item>
-            <img className="d-block w-100" src={Moms9} alt="MOMS 10/2"></img>
-            <Carousel.Caption>
-              <h5>Music On Main Street - 10/02/2021</h5>
-            </Carousel.Caption>
-          </Carousel.Item>
-          <Carousel.Item>
-            <img className="d-block w-100" src={Moms28} alt="MOMS 10/2"></img>
-            <Carousel.Caption>
-              <h5>Music On Main Street - 10/02/2021</h5>
-            </Carousel.Caption>
-          </Carousel.Item>
-          <Carousel.Item>
-            <img className="d-block w-100" src={Moms25} alt="MOMS 10/2"></img>
-            <Carousel.Caption>
-              <h5>Music On Main Street - 10/02/2021</h5>
-            </Carousel.Caption>
-          </Carousel.Item>
-          <Carousel.Item>
-            <img className="d-block w-100" src={Johnny} alt="MOMS 10/2"></img>
-            <Carousel.Caption>
-              <h5>Music On Main Street - 10/02/2021</h5>
-            </Carousel.Caption>
-          </Carousel.Item>
-          <Carousel.Item>
-            <img className="d-block w-100" src={Moms17} alt="MOMS 10/2"></img>
-            <Carousel.Caption>
-              <h5>Music On Main Street - 10/02/2021</h5>
-            </Carousel.Caption>
-          </Carousel.Item>
-          <Carousel.Item>
-            <img className="d-block w-100" src={Barry} alt="MOMS 10/2"></img>
-            <Carousel.Caption>
-              <h5>Music On Main Street - 10/02/2021</h5>
-            </Carousel.Caption>
-          </Carousel.Item>
-          <Carousel.Item>
-            <img className="d-block w-100" src={Moms23} alt="MOMS 10/2"></img>
-            <Carousel.Caption>
-              <h5>Music On Main Street - 10/02/2021</h5>
-            </Carousel.Caption>
-          </Carousel.Item>
-          <Carousel.Item>
-            <img className="d-block w-100" src={Moms30} alt="MOMS 10/2"></img>
-            <Carousel.Caption>
-              <h5>Music On Main Street - 10/02/2021</h5>
-            </Carousel.Caption>
-          </Carousel.Item>
-          <Carousel.Item>
-            <img className="d-block w-100" src={Moms18} alt="MOMS 10/2"></img>
-            <Carousel.Caption>
-              <h5>Music On Main Street - 10/02/2021</h5>
-            </Carousel.Caption>
-          </Carousel.Item>
-          <Carousel.Item>
-            <img className="d-block w-100" src={Moms20} alt="MOMS 10/2"></img>
-            <Carousel.Caption>
-              <h5>Music On Main Street - 10/02/2021</h5>
-            </Carousel.Caption>
-          </Carousel.Item>
-          <Carousel.Item>
-            <img className="d-block w-100" src={Moms4} alt="MOMS 10/2"></img>
-            <Carousel.Caption>
-              <h5>Music On Main Street - 10/02/2021</h5>
-            </Carousel.Caption>
-          </Carousel.Item>
-          <Carousel.Item>
-            <img className="d-block w-100" src={Moms12} alt="MOMS 10/2"></img>
-            <Carousel.Caption>
-              <h5>Music On Main Street - 10/02/2021</h5>
-            </Carousel.Caption>
-          </Carousel.Item>
-          <Carousel.Item>
-            <img className="d-block w-100" src={TGR} alt="MOMS 10/2"></img>
-            <Carousel.Caption>
-              <h5>The Green Room - 9/18/2021</h5>
-            </Carousel.Caption>
-          </Carousel.Item>
-          <Carousel.Item>
-            <img className="d-block w-100" src={Band6} alt="MOMS 10/2"></img>
-            <Carousel.Caption>
-              <h5>The Green Room - 9/18/2021</h5>
-            </Carousel.Caption>
-          </Carousel.Item>
-          <Carousel.Item>
-            <img className="d-block w-100" src={Band2} alt="MOMS 10/2"></img>
-            <Carousel.Caption>
-              <h5>From The Earth Brewing</h5>
-            </Carousel.Caption>
-          </Carousel.Item>
-          <Carousel.Item>
-            <img className="d-block w-100" src={Band3} alt="MOMS 10/2"></img>
-            <Carousel.Caption>
-              <h5>Terminal West</h5>
-            </Carousel.Caption>
-          </Carousel.Item>
-          <Carousel.Item>
-            <img className="d-block w-100" src={Band4} alt="MOMS 10/2"></img>
-            <Carousel.Caption>
-              <h5>Bicycle Ride Across Georiga</h5>
-            </Carousel.Caption>
-          </Carousel.Item>
+                <Carousel.Item>
+                  <img
+                    className="d-block w-100"
+                    src={Moms15}
+                    alt="MOMS 10/2"
+                  ></img>
+                  <Carousel.Caption>
+                    <h5>Music On Main Street - 10/02/2021</h5>
+                  </Carousel.Caption>
+                </Carousel.Item>
+                <Carousel.Item>
+                  <img
+                    className="d-block w-100"
+                    src={Moms9}
+                    alt="MOMS 10/2"
+                  ></img>
+                  <Carousel.Caption>
+                    <h5>Music On Main Street - 10/02/2021</h5>
+                  </Carousel.Caption>
+                </Carousel.Item>
+                <Carousel.Item>
+                  <img
+                    className="d-block w-100"
+                    src={Moms28}
+                    alt="MOMS 10/2"
+                  ></img>
+                  <Carousel.Caption>
+                    <h5>Music On Main Street - 10/02/2021</h5>
+                  </Carousel.Caption>
+                </Carousel.Item>
+                <Carousel.Item>
+                  <img
+                    className="d-block w-100"
+                    src={Moms25}
+                    alt="MOMS 10/2"
+                  ></img>
+                  <Carousel.Caption>
+                    <h5>Music On Main Street - 10/02/2021</h5>
+                  </Carousel.Caption>
+                </Carousel.Item>
+                <Carousel.Item>
+                  <img
+                    className="d-block w-100"
+                    src={Johnny}
+                    alt="MOMS 10/2"
+                  ></img>
+                  <Carousel.Caption>
+                    <h5>Music On Main Street - 10/02/2021</h5>
+                  </Carousel.Caption>
+                </Carousel.Item>
+                <Carousel.Item>
+                  <img
+                    className="d-block w-100"
+                    src={Moms17}
+                    alt="MOMS 10/2"
+                  ></img>
+                  <Carousel.Caption>
+                    <h5>Music On Main Street - 10/02/2021</h5>
+                  </Carousel.Caption>
+                </Carousel.Item>
+                <Carousel.Item>
+                  <img
+                    className="d-block w-100"
+                    src={Barry}
+                    alt="MOMS 10/2"
+                  ></img>
+                  <Carousel.Caption>
+                    <h5>Music On Main Street - 10/02/2021</h5>
+                  </Carousel.Caption>
+                </Carousel.Item>
+                <Carousel.Item>
+                  <img
+                    className="d-block w-100"
+                    src={Moms23}
+                    alt="MOMS 10/2"
+                  ></img>
+                  <Carousel.Caption>
+                    <h5>Music On Main Street - 10/02/2021</h5>
+                  </Carousel.Caption>
+                </Carousel.Item>
+                <Carousel.Item>
+                  <img
+                    className="d-block w-100"
+                    src={Moms30}
+                    alt="MOMS 10/2"
+                  ></img>
+                  <Carousel.Caption>
+                    <h5>Music On Main Street - 10/02/2021</h5>
+                  </Carousel.Caption>
+                </Carousel.Item>
+                <Carousel.Item>
+                  <img
+                    className="d-block w-100"
+                    src={Moms18}
+                    alt="MOMS 10/2"
+                  ></img>
+                  <Carousel.Caption>
+                    <h5>Music On Main Street - 10/02/2021</h5>
+                  </Carousel.Caption>
+                </Carousel.Item>
+                <Carousel.Item>
+                  <img
+                    className="d-block w-100"
+                    src={Moms20}
+                    alt="MOMS 10/2"
+                  ></img>
+                  <Carousel.Caption>
+                    <h5>Music On Main Street - 10/02/2021</h5>
+                  </Carousel.Caption>
+                </Carousel.Item>
+                <Carousel.Item>
+                  <img
+                    className="d-block w-100"
+                    src={Moms4}
+                    alt="MOMS 10/2"
+                  ></img>
+                  <Carousel.Caption>
+                    <h5>Music On Main Street - 10/02/2021</h5>
+                  </Carousel.Caption>
+                </Carousel.Item>
+                <Carousel.Item>
+                  <img
+                    className="d-block w-100"
+                    src={Moms12}
+                    alt="MOMS 10/2"
+                  ></img>
+                  <Carousel.Caption>
+                    <h5>Music On Main Street - 10/02/2021</h5>
+                  </Carousel.Caption>
+                </Carousel.Item>
+                <Carousel.Item>
+                  <img
+                    className="d-block w-100"
+                    src={TGR}
+                    alt="MOMS 10/2"
+                  ></img>
+                  <Carousel.Caption>
+                    <h5>The Green Room - 9/18/2021</h5>
+                  </Carousel.Caption>
+                </Carousel.Item>
+                <Carousel.Item>
+                  <img
+                    className="d-block w-100"
+                    src={Band6}
+                    alt="MOMS 10/2"
+                  ></img>
+                  <Carousel.Caption>
+                    <h5>The Green Room - 9/18/2021</h5>
+                  </Carousel.Caption>
+                </Carousel.Item>
+                <Carousel.Item>
+                  <img
+                    className="d-block w-100"
+                    src={Band2}
+                    alt="MOMS 10/2"
+                  ></img>
+                  <Carousel.Caption>
+                    <h5>From The Earth Brewing</h5>
+                  </Carousel.Caption>
+                </Carousel.Item>
+                <Carousel.Item>
+                  <img
+                    className="d-block w-100"
+                    src={Band3}
+                    alt="MOMS 10/2"
+                  ></img>
+                  <Carousel.Caption>
+                    <h5>Terminal West</h5>
+                  </Carousel.Caption>
+                </Carousel.Item>
+                <Carousel.Item>
+                  <img
+                    className="d-block w-100"
+                    src={Band4}
+                    alt="MOMS 10/2"
+                  ></img>
+                  <Carousel.Caption>
+                    <h5>Bicycle Ride Across Georiga</h5>
+                  </Carousel.Caption>
+                </Carousel.Item>
 
-          <Carousel.Item>
-            <img className="d-block w-100" src={BRAG} alt="MOMS 10/2"></img>
-            <Carousel.Caption>
-              <h5>Bicycle Ride Across Georiga - 2020</h5>
-            </Carousel.Caption>
-          </Carousel.Item>
-          <Carousel.Item>
-            <img className="d-block w-100" src={Porch1} alt="MOMS 10/2"></img>
-            <Carousel.Caption>
-              <h5>Oakhurst Porchfest - 2020</h5>
-            </Carousel.Caption>
-          </Carousel.Item>
-          <Carousel.Item>
-            <img className="d-block w-100" src={Porch2} alt="MOMS 10/2"></img>
-            <Carousel.Caption>
-              <h5>Oakhurst Porchfest - 2020</h5>
-            </Carousel.Caption>
-          </Carousel.Item>
-          <Carousel.Item>
-            <img className="d-block w-100" src={F5} alt="MOMS 10/2"></img>
-            <Carousel.Caption>
-              <h5>Atlanta Botanical Gardens - 7/30/2021</h5>
-            </Carousel.Caption>
-          </Carousel.Item>
+                <Carousel.Item>
+                  <img
+                    className="d-block w-100"
+                    src={BRAG}
+                    alt="MOMS 10/2"
+                  ></img>
+                  <Carousel.Caption>
+                    <h5>Bicycle Ride Across Georiga - 2020</h5>
+                  </Carousel.Caption>
+                </Carousel.Item>
+                <Carousel.Item>
+                  <img
+                    className="d-block w-100"
+                    src={Porch1}
+                    alt="MOMS 10/2"
+                  ></img>
+                  <Carousel.Caption>
+                    <h5>Oakhurst Porchfest - 2020</h5>
+                  </Carousel.Caption>
+                </Carousel.Item>
+                <Carousel.Item>
+                  <img
+                    className="d-block w-100"
+                    src={Porch2}
+                    alt="MOMS 10/2"
+                  ></img>
+                  <Carousel.Caption>
+                    <h5>Oakhurst Porchfest - 2020</h5>
+                  </Carousel.Caption>
+                </Carousel.Item>
+                <Carousel.Item>
+                  <img className="d-block w-100" src={F5} alt="MOMS 10/2"></img>
+                  <Carousel.Caption>
+                    <h5>Atlanta Botanical Gardens - 7/30/2021</h5>
+                  </Carousel.Caption>
+                </Carousel.Item>
 
-          <Carousel.Item>
-            <img className="d-block w-100" src={F1} alt="MOMS 10/2"></img>
-            <Carousel.Caption>
-              <h5>Avondale Town Cinema - 9/13/2019</h5>
-            </Carousel.Caption>
-          </Carousel.Item>
-          <Carousel.Item>
-            <img className="d-block w-100" src={F2} alt="MOMS 10/2"></img>
-            <Carousel.Caption>
-              <h5>Avondale Town Cinema - 9/13/2019</h5>
-            </Carousel.Caption>
-          </Carousel.Item>
-          <Carousel.Item>
-            <img className="d-block w-100" src={F3} alt="MOMS 10/2"></img>
-            <Carousel.Caption>
-              <h5>Red Light Cafe - 1/11/2019</h5>
-            </Carousel.Caption>
-          </Carousel.Item>
-          <Carousel.Item>
-            <img className="d-block w-100" src={F4} alt="MOMS 10/2"></img>
-            <Carousel.Caption>
-              <h5>Oakhurst Porchfest - 2020</h5>
-            </Carousel.Caption>
-          </Carousel.Item>
-        </Carousel>
-
-        <h5 id="shows">Some of our recent shows and events...</h5>
+                <Carousel.Item>
+                  <img className="d-block w-100" src={F1} alt="MOMS 10/2"></img>
+                  <Carousel.Caption>
+                    <h5>Avondale Town Cinema - 9/13/2019</h5>
+                  </Carousel.Caption>
+                </Carousel.Item>
+                <Carousel.Item>
+                  <img className="d-block w-100" src={F2} alt="MOMS 10/2"></img>
+                  <Carousel.Caption>
+                    <h5>Avondale Town Cinema - 9/13/2019</h5>
+                  </Carousel.Caption>
+                </Carousel.Item>
+                <Carousel.Item>
+                  <img className="d-block w-100" src={F3} alt="MOMS 10/2"></img>
+                  <Carousel.Caption>
+                    <h5>Red Light Cafe - 1/11/2019</h5>
+                  </Carousel.Caption>
+                </Carousel.Item>
+                <Carousel.Item>
+                  <img className="d-block w-100" src={F4} alt="MOMS 10/2"></img>
+                  <Carousel.Caption>
+                    <h5>Oakhurst Porchfest - 2020</h5>
+                  </Carousel.Caption>
+                </Carousel.Item>
+              </Carousel>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   );

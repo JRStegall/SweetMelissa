@@ -16,6 +16,9 @@ function MusicPage() {
               width="100%"
               url="https://www.facebook.com/sweetmelissaandtheramblinmen/videos/838611906847402/"
             ></ReactPlayer>
+            <caption>
+              In Memory of Elizabeth Reed, drum solo - The Green Room
+            </caption>
           </div>
           <div className="col-sm-12 col-lg-4 ">
             <ReactPlayer

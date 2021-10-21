@@ -28,7 +28,7 @@
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
-  padding-top: 1%;
+  padding-top: 5%;
   max-width: 100%;
   height: auto;
   margin: auto;
@@ -37,7 +37,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  /* font-size: calc(10px + 2vmin); */
   color: white;
 }
 
@@ -48,6 +48,10 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+body {
+  padding-top: 1%;
 }
 
 h4 {
@@ -87,6 +91,7 @@ h5,
 
 .para {
   max-width: 90%;
+  padding-bottom: 1%;
   margin: auto;
 }
 
@@ -95,7 +100,7 @@ h5,
 .band {
   background-color: rgba(241, 229, 210, 0.5);
   padding-top: 3%;
-  padding-bottom: 10%;
+  padding-bottom: 8%;
   width: 90%;
   margin: 0 auto;
 }
@@ -162,15 +167,20 @@ h5,
 }
 /**************SHOWS PAGE*************************/
 .gallery {
-  background-color: rgba(241, 229, 210, 0.5);
-  padding-top: 5%;
-  padding-bottom: 5%;
-  width: 90%;
-  margin: 0 auto;
+  margin-top: 5%;
 }
 
 .gallery .d-block {
   height: 600px;
+}
+
+.carousel {
+  width: 80%;
+  margin: auto;
+}
+
+#shows {
+  margin-top: 5%;
 }
 
 /**********************SET LIST PAGE******************/
@@ -233,7 +243,7 @@ h5,
 
   /**********************XTRAS PAGE***************/
   .xtras {
-    margin-top: 25%;
+    margin-top: 30%;
   }
 
   .figure img {
@@ -242,7 +252,7 @@ h5,
 
   /************************SHOWS PAGE***************/
   .gallery {
-    margin-top: 40%;
+    margin-top: 30%;
     padding-bottom: 30%;
   }
 
@@ -250,9 +260,15 @@ h5,
     height: 300px;
   }
 
+  .carousel {
+    width: 100%;
+    padding-top: 4%;
+  }
+
   /**********************SET LIST PAGE**************/
   .list {
-    padding-top: 20%;
+    padding-top: 10%;
+    margin-top: 30%;
   }
 
   /**********************MUSIC PAGE*****************/

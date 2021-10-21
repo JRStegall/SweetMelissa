@@ -14,16 +14,7 @@ function Main() {
       <div className="App-header">
         <img src={Bandlogo} className="App-logo logo-responsive" alt="logo" />
       </div>
-
-      <div class="para">
-        <h5>
-          We LOVE all things Allman! <br />
-          More than that, we have a passion for playing music and helping to
-          keep The Allman Brothers music alive!
-        </h5>
-      </div>
       <br />
-
       <div className="container band">
         <h5 id="lineuptag">Our current lineup:</h5>
         <div>
@@ -76,6 +67,14 @@ function Main() {
             </Carousel>
           </div>
         </div>
+      </div>
+      <br />
+      <div class="para">
+        <h5>
+          We LOVE all things Allman! <br />
+          More than that, we have a passion for playing music and helping to
+          keep The Allman Brothers music alive!
+        </h5>
         <h6 id="fbcap">
           Like us on Facebook, stay tuned for future events and SUPPORT LOCAL
           MUSIC!!
