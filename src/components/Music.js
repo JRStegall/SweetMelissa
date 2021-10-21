@@ -6,7 +6,8 @@ function MusicPage() {
   return (
     <div className="Main wndw">
       <div className="player">
-        <h4>(Previously recorded...) Live Shows</h4>
+        <span id="span">(Previously recorded, obviously...)</span>
+        <h4>Live Shows</h4>
         <div className="row">
           <div className="col-lg-1"></div>
           <div className="col-sm-12 col-lg-4 ">

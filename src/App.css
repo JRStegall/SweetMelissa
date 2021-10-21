@@ -226,6 +226,10 @@ h5,
   margin: auto;
 }
 
+#span {
+  font-size: xx-small;
+}
+
 /*****************************START MEDIA QUERY min-width 300*****************************/
 /*****************************START MEDIA QUERY min-width 300*****************************/
 
