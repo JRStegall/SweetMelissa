@@ -143,7 +143,7 @@ function Xtras() {
                     Damian Kapcala - keys
                   </figcaption>
                 </a>
-                <p className="caption text-right"></p>
+                <p className="caption text-right">Frankly Scarlet</p>
                 <hr />
               </figure>
             </div>
@@ -204,7 +204,7 @@ function Xtras() {
                     Tyler Neal - guitar
                   </figcaption>
                 </a>
-                <p className="caption text-right"></p>
+                <p className="caption text-right">Tyler Neal Band</p>
                 <hr />
               </figure>
             </div>
@@ -252,7 +252,28 @@ function Xtras() {
                     Adrian Ash - drums
                   </figcaption>
                 </a>
-                <p className="caption text-right"></p>
+                <p className="caption text-right">
+                  <a href="facebook.com/AbsyntheMakesTheArtGarfunkel">
+                    Absynthe Makes the Art Garfunkle
+                  </a>
+                  , <a href="facebook.com/theupbeatniks">The Upbeat Niks</a>,{" "}
+                  <a href="facebook.com/TheNewVintageMusic">
+                    The New Vintage Sound
+                  </a>
+                  , <a href="facebook.com/BlueTurtlesATL">Blue Turtles ATL</a>,{" "}
+                  <a href="facebook.com/FunkedUpMuzak">Funked Up Muzak</a>,{" "}
+                  <a href="facebook.com/PhysicalGraffitiATL">
+                    Physical Graffiti ATL
+                  </a>
+                  ,
+                  <a href="facebook.com/SkatingAVinceGuaraldiTribute">
+                    Skating: A Vince Guaraldi Tribute
+                  </a>
+                  ,{" "}
+                  <a href="facebook.com/FloydWhereProhibited">
+                    Floyd Where Prohibited
+                  </a>
+                </p>
                 <hr />
               </figure>
             </div>

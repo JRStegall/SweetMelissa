@@ -40,9 +40,6 @@ function ShowList() {
   return (
     <div className="Main gallery">
       <div className="container">
-        <div id="shows" className="para">
-          <h5>Some of our recent shows and events...</h5>
-        </div>
         <div className="container-fluid carousel band">
           <div className="row">
             <div className="col">
@@ -380,6 +377,9 @@ function ShowList() {
               </Carousel>
             </div>
           </div>
+        </div>
+        <div id="shows" className="para">
+          <h5>Some of our recent shows and events...</h5>
         </div>
       </div>
     </div>
