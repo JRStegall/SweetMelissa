@@ -38,9 +38,9 @@ import { Route } from "react-router";
 
 function ShowList() {
   return (
-    <div className="Main gallery">
-      <div className="container">
-        <div className="container-fluid carousel band">
+    <div className="Main container ">
+      <div className="band gallery">
+        <div className="container-fluid carousel ">
           <div className="row">
             <div className="col">
               <Carousel
@@ -378,9 +378,9 @@ function ShowList() {
             </div>
           </div>
         </div>
-        <div id="shows" className="para">
-          <h5>Some of our recent shows and events...</h5>
-        </div>
+      </div>
+      <div id="shows" className="para">
+        <h5>Some of our recent shows and events...</h5>
       </div>
     </div>
   );

@@ -4,27 +4,40 @@ import ReactPlayer from "react-player";
 
 function MusicPage() {
   return (
-    <div className="Main wndw">
+    <div className="Main container wndw">
       <div className="player">
-        <span id="span">(Previously recorded, obviously...)</span>
         <h4>Live Shows</h4>
+        <span id="span">(Previously recorded, obviously...)</span>
         <div className="row">
           <div className="col-lg-1"></div>
           <div className="col-sm-12 col-lg-4 ">
-            <ReactPlayer
-              className="react-player"
-              height="100%"
-              width="100%"
-              url="https://www.facebook.com/sweetmelissaandtheramblinmen/videos/838611906847402/"
-            ></ReactPlayer>
+            <div /**react player div **/>
+              <ReactPlayer
+                className="react-player"
+                height="100%"
+                width="100%"
+                url="https://www.facebook.com/sweetmelissaandtheramblinmen/videos/838611906847402/"
+              ></ReactPlayer>
+              <p className="playerCap">
+                (Drum solo) In Memory of Elizabeth Reed
+                <br />
+                The Green Room - Mableton, GA
+              </p>
+            </div>
           </div>
+
           <div className="col-sm-12 col-lg-4 ">
-            <ReactPlayer
-              className="react-player"
-              height="100%"
-              width="100%"
-              url="https://www.youtube.com/watch?v=_c-lI_m3QGE"
-            ></ReactPlayer>
+            <div /**react player div */>
+              <ReactPlayer
+                className="react-player"
+                height="100%"
+                width="100%"
+                url="https://www.facebook.com/sweetmelissaandtheramblinmen/videos/224564799578345/"
+              ></ReactPlayer>
+              <p className="playerCap">
+                Atlanta Botanical Gardens - Sound Check
+              </p>
+            </div>
           </div>
         </div>
       </div>
