@@ -9,7 +9,12 @@ function Navigate() {
     <div className="navbar">
       <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark" fixed="top">
         <Container>
-          <Navbar.Brand as={Link} eventKey="1" className="link bandName" to="/">
+          <Navbar.Brand
+            as={Link}
+            eventKey="1"
+            className="link bandName"
+            to="/*"
+          >
             Sweet Melissa and the Ramblin' Men
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
