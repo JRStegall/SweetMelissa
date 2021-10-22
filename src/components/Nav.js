@@ -16,19 +16,19 @@ function Navigate() {
           <Navbar.Collapse id="responsive-navbar-nav">
             <Nav className="mr-auto">
               <Nav.Item>
-                <Nav.Link eventKey="2" as={Link} className="link" to="/xtras">
+                <Nav.Link eventKey="2" as={Link} className="link" to="/friends">
                   Friends of the Band
                 </Nav.Link>
               </Nav.Item>
 
               <Nav.Item>
-                <Nav.Link eventKey="3" as={Link} className="link" to="/shows">
+                <Nav.Link eventKey="3" as={Link} className="link" to="/gallery">
                   Gallery
                 </Nav.Link>
               </Nav.Item>
 
               <Nav.Item>
-                <Nav.Link eventKey="4" as={Link} className="link" to="/setlist">
+                <Nav.Link eventKey="4" as={Link} className="link" to="/events">
                   Events/Set List
                 </Nav.Link>
               </Nav.Item>
