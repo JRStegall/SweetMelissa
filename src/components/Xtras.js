@@ -430,6 +430,6 @@ function Xtras() {
   );
 }
 
-let Extras = () => <Route path="/xtras" component={Xtras}></Route>;
+let Extras = () => <Route path="/friends" component={Xtras}></Route>;
 
 export default Extras;

@@ -96,7 +96,7 @@ function Set() {
 
 let Setlist = () => (
   <div>
-    <Route path="/setlist" component={Set}></Route>
+    <Route path="/events" component={Set}></Route>
   </div>
 );
 

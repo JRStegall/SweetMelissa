@@ -388,7 +388,7 @@ function ShowList() {
 
 let Shows = () => (
   <div>
-    <Route path="/shows" component={ShowList} />
+    <Route path="/gallery" component={ShowList} />
   </div>
 );
 

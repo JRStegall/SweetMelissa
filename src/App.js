@@ -15,9 +15,9 @@ function App() {
       <Navigate />
       <Switch>
         <Route path="/music" component={Music} />
-        <Route path="/shows" component={Shows} />
-        <Route path="/setlist" component={SetList} />
-        <Route path="/xtras" component={Xtras} />
+        <Route path="/gallery" component={Shows} />
+        <Route path="/events" component={SetList} />
+        <Route path="/friends" component={Xtras} />
         <Route path="/" component={Main} />
       </Switch>
     </div>
