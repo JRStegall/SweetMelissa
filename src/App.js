@@ -7,7 +7,7 @@ import SetList from "./components/SetList";
 import Xtras from "./components/Xtras";
 import Music from "./components/Music";
 import "./App.css";
-import "..public/_redirects";
+import "/public/_redirects";
 
 function App() {
   return (
