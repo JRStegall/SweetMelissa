@@ -11,6 +11,8 @@ import AA from "../Images/adrian.jpeg";
 import Justin from "../Images/justin.jpeg";
 import AS from "../Images/adam.jpeg";
 import AWG from "../Images/allen.jpeg";
+import JF from "../Images/jerbo.jpeg";
+import NL from "../Images/nico.jpeg";
 import { Route } from "react-router";
 
 function Xtras() {
@@ -158,6 +160,69 @@ function Xtras() {
                 </figure>
               </div>
 
+              {/* Jerbo  */}
+              <div className="col-sm-8 col-lg-6">
+                <figure className="figure ">
+                  <img
+                    src={JF}
+                    className="App-logo img-responsive jerbo"
+                    alt="Jerbo"
+                  />
+                  <a
+                    href="https://www.facebook.com/profile.php?id=100006120766542"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    {" "}
+                    <figcaption class="figure-caption text-right">
+                      Jerbo Foti - bass
+                    </figcaption>
+                  </a>
+                  <p className="caption text-left">
+                    <a href="https://www.facebook.com/franklyscarletjams">
+                      Frankly Scarlet
+                    </a>
+                    , Spaceship Racecar, Potch, Dot_Line Project
+                  </p>
+                  <hr />
+                </figure>
+              </div>
+
+              {/* Nico */}
+              <div className="col-sm-8 col-lg-6">
+                <figure className="figure">
+                  <img
+                    src={NL}
+                    className="App-logo img-responsive"
+                    alt="Nico"
+                  />
+                  <a
+                    href="https://l.facebook.com/l.php?u=http%3A%2F%2Fwww.nicolembomusic.com%2F%3Ffbclid%3DIwAR0E7DXvYMKTCDnxzBdoorImKCZq1hWjO_xeg9ED_i-9hfs7xvQUqOTg5uk
+                    &h=AT1m0rTVzCzwB3yH1WeyazJ3jbB7KiDIGEok_KkqAzl5cGzbYExV9mbxYpNA8dLMD_IPbzDR0Ag_AaTfuyqX19q_qnbPNw9oCyw2Hc0bKkDElUuY8wBC4SZ5oSeJTznBZbK3zEmhvlKO6ZkdjhvjjbdG"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    {" "}
+                    <figcaption class="figure-caption text-right">
+                      Nico Lembo - drums
+                    </figcaption>
+                  </a>
+                  <p className="caption text-left">
+                    Emerald Empire Band,{" "}
+                    <a
+                      href="https://l.facebook.com/l.php?u=https%3A%2F%2Fthedeemsters.com%2F%3Ffbclid%3DIwAR0vKUURQrzf9KFsCy7cVBbe8QFCPQibdi1MaS516dVMOi-142urdZlmn-4
+                    &h=AT1m0rTVzCzwB3yH1WeyazJ3jbB7KiDIGEok_KkqAzl5cGzbYExV9mbxYpNA8dLMD_IPbzDR0Ag_AaTfuyqX19q_qnbPNw9oCyw2Hc0bKkDElUuY8wBC4SZ5oSeJTznBZbK3zEmhvlKO6ZkdjhvjjbdG"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      Deemsters
+                    </a>
+                    , Larkin Poe, The Whiskey Gentry
+                  </p>
+                  <hr />
+                </figure>
+              </div>
+
               {/* Damian */}
               <div className="col-sm-8 col-lg-6">
                 <figure className="figure">
@@ -176,7 +241,11 @@ function Xtras() {
                       Damian Kapcala - keys
                     </figcaption>
                   </a>
-                  <p className="caption text-left">Frankly Scarlet</p>
+                  <p className="caption text-left">
+                    <a href="https://www.facebook.com/franklyscarletjams">
+                      Frankly Scarlet
+                    </a>
+                  </p>
                   <hr />
                 </figure>
               </div>
