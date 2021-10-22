@@ -242,9 +242,15 @@ function Xtras() {
                     </figcaption>
                   </a>
                   <p className="caption text-left">
+                    Damian Kapcala &amp; Friends,
                     <a href="https://www.facebook.com/franklyscarletjams">
                       Frankly Scarlet
                     </a>
+                    , The Incredible Sandwich, Lionz, The Last Jamurai, New
+                    Nature, Another Fiasco, FieldTrip, Thelonious, Sonic Boom,
+                    Nathan Shephard, Cardboard Willie, Chattahoochee Cannibals,
+                    Bernie Worrell &amp; Friends, Ansley Stewart &amp; The
+                    Replaceables, KASVOT Fox
                   </p>
                   <hr />
                 </figure>

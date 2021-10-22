@@ -262,6 +262,7 @@ function ShowList() {
                     <h5>Music On Main Street - 10/02/2021</h5>
                   </Carousel.Caption>
                 </Carousel.Item>
+
                 <Carousel.Item>
                   <img
                     className="d-block w-100"
@@ -282,6 +283,14 @@ function ShowList() {
                     <h5>The Green Room - 9/18/2021</h5>
                   </Carousel.Caption>
                 </Carousel.Item>
+
+                <Carousel.Item>
+                  <img className="d-block w-100" src={F5} alt="MOMS 10/2"></img>
+                  <Carousel.Caption>
+                    <h5>Atlanta Botanical Gardens - 7/30/2021</h5>
+                  </Carousel.Caption>
+                </Carousel.Item>
+
                 <Carousel.Item>
                   <img
                     className="d-block w-100"
@@ -341,12 +350,6 @@ function ShowList() {
                   ></img>
                   <Carousel.Caption>
                     <h5>Oakhurst Porchfest - 2020</h5>
-                  </Carousel.Caption>
-                </Carousel.Item>
-                <Carousel.Item>
-                  <img className="d-block w-100" src={F5} alt="MOMS 10/2"></img>
-                  <Carousel.Caption>
-                    <h5>Atlanta Botanical Gardens - 7/30/2021</h5>
                   </Carousel.Caption>
                 </Carousel.Item>
 
