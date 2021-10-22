@@ -165,6 +165,11 @@ h5,
 .caption a {
   color: blanchedalmond;
 }
+
+.text-left {
+  width: 90%;
+  margin: auto;
+}
 /**************SHOWS PAGE*************************/
 .gallery {
   margin-top: 5%;

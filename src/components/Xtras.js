@@ -46,14 +46,13 @@ function Xtras() {
                       Barry Richman - guitar
                     </figcaption>
                   </a>
-                  <p className="caption text-right">
+                  <p className="caption text-left">
                     <a href="https://barryrichmanband.bandzoogle.com/press-kit-name-dropping">
                       {" "}
                       The Barry Richman Band, The Allman Brothers Band, Gov't
                       Mule, Derek Trucks, Eric Clapton, Bruce Hampton, Zack
                       Brown, Little Feat, John Lee Hooker, Mike Gordon &amp;
-                      John Fishman (Phish) <br />
-                      Buddy Miles (Band of Gypsies)
+                      John Fishman (Phish), Buddy Miles (Band of Gypsies)
                     </a>
                   </p>
                   <hr />
@@ -78,10 +77,10 @@ function Xtras() {
                       Joel Edwards - keys
                     </figcaption>
                   </a>
-                  <p className="caption text-right">
-                    The Barry Richman Band, Louise Mandrell, Chuck Berry, Mel
-                    Torme, <br />
-                    Big &amp; Rich, Cheap Trick, Pop Tart Monkeys
+                  <p className="caption text-left">
+                    The Barry Richman Band, Louise Mandrell, Chuck Berry
+                    <br /> Mel Torme, Big &amp; Rich, Cheap Trick, Pop Tart
+                    Monkeys
                   </p>
                   <hr />
                 </figure>
@@ -105,9 +104,8 @@ function Xtras() {
                       Richie Jones - drums
                     </figcaption>
                   </a>
-                  <p className="caption text-right">
-                    Potch, Dot_Line Project, Spaceship Racecar, Donna Hopkins
-                    <br />
+                  <p className="caption text-left">
+                    Potch, Dot_Line Project, Spaceship Racecar, Donna Hopkins,
                     Ralph Rodenberry
                   </p>
                   <hr />
@@ -133,7 +131,7 @@ function Xtras() {
                     </figcaption>
                   </a>
                   <hr />
-                  <p className="caption text-right"></p>
+                  <p className="caption text-left"></p>
                 </figure>
               </div>
 
@@ -155,7 +153,7 @@ function Xtras() {
                       Jesse Sunga - guitar
                     </figcaption>
                   </a>
-                  <p className="caption text-right"></p>
+                  <p className="caption text-left"></p>
                   <hr />
                 </figure>
               </div>
@@ -178,7 +176,7 @@ function Xtras() {
                       Damian Kapcala - keys
                     </figcaption>
                   </a>
-                  <p className="caption text-right">Frankly Scarlet</p>
+                  <p className="caption text-left">Frankly Scarlet</p>
                   <hr />
                 </figure>
               </div>
@@ -201,7 +199,7 @@ function Xtras() {
                       Allen Welty-Green - keys
                     </figcaption>
                   </a>
-                  <p className="caption text-right"></p>
+                  <p className="caption text-left"></p>
                   <hr />
                 </figure>
               </div>
@@ -224,7 +222,7 @@ function Xtras() {
                       Tyler Neal - guitar
                     </figcaption>
                   </a>
-                  <p className="caption text-right">Tyler Neal Band</p>
+                  <p className="caption text-left">Tyler Neal Band</p>
                   <hr />
                 </figure>
               </div>
@@ -246,7 +244,7 @@ function Xtras() {
                       Adrian Ash - drums
                     </figcaption>
                   </a>
-                  <p className="caption text-right">
+                  <p className="caption text-left">
                     <a href="facebook.com/AbsyntheMakesTheArtGarfunkel">
                       Absynthe Makes the Art Garfunkle
                     </a>
@@ -259,7 +257,7 @@ function Xtras() {
                     <a href="facebook.com/PhysicalGraffitiATL">
                       Physical Graffiti ATL
                     </a>
-                    ,
+                    ,&nbsp;
                     <a href="facebook.com/SkatingAVinceGuaraldiTribute">
                       Skating: A Vince Guaraldi Tribute
                     </a>
@@ -290,7 +288,7 @@ function Xtras() {
                       Justin Beals - guitar
                     </figcaption>
                   </a>
-                  <p className="caption text-right">
+                  <p className="caption text-left">
                     <a href="https://facebook.com/jackwagonrocks">Jackwagon</a>,{" "}
                     <a href="https://www.facebook.com/Lizzyinajar/">
                       Lizzy In A Jar: Thin Lizzy Tribute
@@ -318,7 +316,7 @@ function Xtras() {
                       Michael Plunkett - guitar
                     </figcaption>
                   </a>
-                  <p className="caption text-right">
+                  <p className="caption text-left">
                     <a href="https://www.facebook.com/skyballsmusic">
                       {" "}
                       Skyballs: Atlanta's Phish Tribute Band
@@ -346,7 +344,7 @@ function Xtras() {
                       Adam Simon - keys
                     </figcaption>
                   </a>
-                  <p className="caption text-right">
+                  <p className="caption text-left">
                     <a href="https://www.facebook.com/skyballsmusic">
                       {" "}
                       Skyballs: Atlanta's Phish Tribute Band
