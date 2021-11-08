@@ -35,7 +35,7 @@ function Navigate() {
 
               <Nav.Item>
                 <Nav.Link eventKey="5" as={Link} className="link" to="/music">
-                  Music
+                  Bio/Music
                 </Nav.Link>
               </Nav.Item>
 

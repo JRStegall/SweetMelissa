@@ -1,7 +1,8 @@
 import React from "react";
 import { Route } from "react-router";
 import SteadyHand from "../Images/steadyhand.jpeg";
-// import MoonShdw from "../Images/mnshdw.jpeg";
+import NPLN from "../Images/napoleons.jpeg";
+import TGR from "../Images/tgr.jpeg";
 function Set() {
   return (
     <div className="Main band list">
@@ -24,20 +25,35 @@ function Set() {
               </li>
             </ul>
 
-            {/* <ul>
-            <li>
-              <img
-                src={MoonShdw}
-                className="steady img-responsive"
-                alt="logo"
-              />
-              <a href="https://msttucker.com/" target="_blank" rel="noreferrer">
-                {" "}
-                Moon Shadow Tavern{" "}
-              </a>{" "}
-              - Friday, December 17 @ 8pm
-            </li>
-          </ul> */}
+            <ul>
+              <li>
+                <img src={NPLN} className="steady img-responsive" alt="logo" />
+                <a
+                  href="https://www.napoleonsgrill.com/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  {" "}
+                  Napoleon's Grill{" "}
+                </a>{" "}
+                - Saturday, March 12 @ 8pm
+              </li>
+            </ul>
+
+            <ul>
+              <li>
+                <img src={TGR} className="steady img-responsive" alt="logo" />
+                <a
+                  href="https://www.facebook.com/thegreenroomofmableton/?ref=page_internal"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  {" "}
+                  The Green Room{" "}
+                </a>{" "}
+                - Saturday, February 12 @ 8pm
+              </li>
+            </ul>
             <hr />
           </div>
 
@@ -46,6 +62,7 @@ function Set() {
           </div>
 
           <div className="col-lg-6 col-sm-12">
+            <br />
             <ul>
               <li>Don't Want You No More</li>
               <li>It's Not My Cross To Bear</li>
