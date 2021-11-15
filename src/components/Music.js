@@ -88,7 +88,24 @@ function MusicPage() {
           </div>
           <div className="col-sm-12 col-lg-7">
             <h4>Chris "Critter" Ricker</h4>
-            <p>Critter plays guitar.</p>
+            <p>
+              Music has always been a place of great joy for Critter and his
+              fluid and expressive playing style generously reflects that joy.
+              &nbsp;Growing up, Steely Dan was a household staple, engraining
+              jazz/rock inlfuence into his formidable years, which led to the
+              discovery of Jazz greats like Miles Davis, Pat Matheney, Nat King
+              Cole and Billie Holiday. &nbsp;But nothing changed his musical
+              life quite like the influence of the funk-rock-alt-metal of
+              Incubus and the prog-metal giants TOOL. &nbsp;From then on, there
+              was no satiating his musical appetite, drawing heavy influence
+              from the likes of: Dan Tohler, Bela Fleck, Tony Rice, Jerry
+              Garcia, Duane Allman, Dickie Betts and Trey Anastasio. &nbsp;After
+              studying at AIM, Critter went on to be a founding member of the
+              Atlanta funk-jam-band Copious Jones. As well as having played with
+              a varitable Who's Who of the Atlanta music scene, Critter has been
+              a recording engineer at Itchy Brain in Decatur, GA and has since
+              started his own recording studio, Doghouse Studio in Tucker, GA.
+            </p>
           </div>
         </div>
         <hr />
@@ -103,15 +120,15 @@ function MusicPage() {
             <p>
               Jeremy has been on stage since the age of 5 and spent the next 10
               years performing in plays, musicals, operas and choirs.
-              &nbsp;Being exposed to classical music and composers from birth,
-              his early musical influence was driven by his classically trained
-              parents who led and conducted choirs, orchestras and church
-              services. &nbsp;Spending six years in the renowned Indianapolis
-              Childrens Choir, he had the opportunity to perform in such
-              prestigious places as Clowes Memorial Hall (Indianapolis, IN), the
-              historic Circle Theatre (Indianapolis, IN), the Toronto Opera
-              House (Toronto, Canada), the Sydney Opera House (Sydney,
-              Australia) and Carnegie Hall (New York, NY).
+              &nbsp;Being exposed to classical music from birth, his early
+              musical influence was driven by his classically trained parents
+              who led and conducted choirs, orchestras and church services.
+              &nbsp;Spending six years in the renowned Indianapolis Childrens
+              Choir, he had the opportunity to perform in such prestigious
+              places as Clowes Memorial Hall (Indianapolis, IN), the historic
+              Circle Theatre (Indianapolis, IN), the Toronto Opera House
+              (Toronto, Canada), the Sydney Opera House (Sydney, Australia) and
+              Carnegie Hall (New York, NY).
             </p>
             <p>
               After getting his first guitar at 13, there was no stopping his

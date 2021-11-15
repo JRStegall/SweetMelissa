@@ -10,20 +10,6 @@ function Set() {
         <div className="listRow row">
           <div className="col-12">
             <h4>Upcoming Events</h4>
-            <ul>
-              <li>
-                <img src={SteadyHand} className="steady" alt="logo" />
-                <a
-                  href="https://steadyhandbeer.com/"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  {" "}
-                  Stead Hand Beer Company{" "}
-                </a>{" "}
-                - Friday, November 12 @ 6pm
-              </li>
-            </ul>
 
             <ul>
               <li>
