@@ -1,6 +1,6 @@
 import React from "react";
 import { Route } from "react-router";
-import SteadyHand from "../Images/steadyhand.jpeg";
+// import SteadyHand from "../Images/steadyhand.jpeg";
 import NPLN from "../Images/napoleons.jpeg";
 import TGR from "../Images/tgr.jpeg";
 function Set() {
