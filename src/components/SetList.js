@@ -13,6 +13,21 @@ function Set() {
 
             <ul>
               <li>
+                <img src={TGR} className="steady img-responsive" alt="logo" />
+                <a
+                  href="https://www.facebook.com/thegreenroomofmableton/?ref=page_internal"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  {" "}
+                  The Green Room{" "}
+                </a>{" "}
+                - Saturday, February 12 @ 8pm
+              </li>
+            </ul>
+
+            <ul>
+              <li>
                 <img src={NPLN} className="steady img-responsive" alt="logo" />
                 <a
                   href="https://www.napoleonsgrill.com/"
@@ -26,20 +41,6 @@ function Set() {
               </li>
             </ul>
 
-            <ul>
-              <li>
-                <img src={TGR} className="steady img-responsive" alt="logo" />
-                <a
-                  href="https://www.facebook.com/thegreenroomofmableton/?ref=page_internal"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  {" "}
-                  The Green Room{" "}
-                </a>{" "}
-                - Saturday, February 12 @ 8pm
-              </li>
-            </ul>
             <hr />
           </div>
 
