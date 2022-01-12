@@ -20,11 +20,26 @@ function MusicPage() {
           <div className="col-sm-12 col-lg-7">
             <h4>Melissa Goehner</h4>
             <p>
-              Melissa has had a life long love of music and singing with her
-              whole heart, which naturally led to singing with friends in
-              various bands. &nbsp; Raised on a steady stream southern and
-              classic rock, she draws her influences from Janis Joplin, Joan
-              Jett, Anne Hart and Susan Tedeschi.
+              Being a lfe long lover of music, Melissa began singing along with
+              whatever should heard before she could even talk. &nbsp;Named
+              after the song, Melissa grew up in a house filled with music, but
+              The Allman Brothers holds a special place. &nbsp;As her dads
+              favorite band, he incessantly played their music, all of their
+              music, from every album. &nbsp;And when the Brothers came to town,
+              the whole family frequently went together.
+              <br></br>As her love of music grew, as did her influences: Janis
+              Joplin, Aretha Franklin, Ani Defranco, and Susan Tedeschi are just
+              some of the artists who make up the list. &nbsp;
+            </p>
+            <p>
+              When in college, she began sitting in with friends bands on the
+              weekends and at the occasional party, her love of performing
+              began. &nbsp;Over the years, Melissa has been a part of, or
+              performed with many Atlanta musicians, including: Broke on Monday,
+              Tyler Neal, Pink Zeppelin, Babe Dylon, Bluphoria, Jane Brown and
+              the HoTown Review, Chasing the Sun, and Magnolia Express.
+              <br />
+              In 2018, she began building Sweet Melissa and the Ramblin' Men.
             </p>
           </div>
         </div>
@@ -102,9 +117,9 @@ function MusicPage() {
               Garcia, Duane Allman, Dickie Betts and Trey Anastasio. &nbsp;After
               studying at AIM, Critter went on to be a founding member of the
               Atlanta funk-jam-band Copious Jones. As well as having played with
-              a varitable Who's Who of the Atlanta music scene, Critter has been
-              a recording engineer at Itchy Brain in Decatur, GA and has since
-              started his own recording studio, Doghouse Studio in Tucker, GA.
+              a varitable Who's Who of the Atlanta music scene, Critter is a
+              recording engineer at Itchy Brain in Decatur, GA and Doghouse
+              Studio in Tucker, GA.
             </p>
           </div>
         </div>

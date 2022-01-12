@@ -3,6 +3,7 @@ import { Route } from "react-router";
 // import SteadyHand from "../Images/steadyhand.jpeg";
 import NPLN from "../Images/napoleons.jpeg";
 import TGR from "../Images/tgr.jpeg";
+import MOMS from "../Images/moms1.jpeg";
 function Set() {
   return (
     <div className="Main band list">
@@ -38,6 +39,28 @@ function Set() {
                   Napoleon's Grill{" "}
                 </a>{" "}
                 - Saturday, March 12 @ 8pm
+              </li>
+            </ul>
+
+            <ul>
+              <li>
+                <img src={MOMS} className="steady img-responsive" alt="logo" />
+                <a
+                  href="https://musiconmainstreetlilburn.com/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  {" "}
+                  Music On Main Street (MOMS){" "}
+                </a>{" "}
+                - Saturday, April 23 @ 6pm &nbsp;
+                <a
+                  href="https://musiconmainstreetlilburn.com/concerts.html"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  Pre-Sale Tickets
+                </a>
               </li>
             </ul>
 
