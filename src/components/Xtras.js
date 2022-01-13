@@ -63,6 +63,29 @@ function Xtras() {
                 </figure>
               </div>
 
+              {/* Trenton */}
+              <div className="col-sm-8 col-lg-6">
+                <figure className="figure">
+                  <img
+                    src={TS}
+                    className="App-logo img-responsive"
+                    alt="Trenton"
+                  />
+                  <a
+                    href="https://www.facebook.com/trenton.sicola"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    {" "}
+                    <figcaption class="figure-caption text-right">
+                      Trenton Scicola - drums
+                    </figcaption>
+                  </a>
+                  <hr />
+                  <p className="caption text-left"></p>
+                </figure>
+              </div>
+
               {/* BARRY */}
               <div className="col-sm-8 col-lg-6">
                 <figure className="figure">
@@ -144,29 +167,6 @@ function Xtras() {
                     Ralph Rodenberry
                   </p>
                   <hr />
-                </figure>
-              </div>
-
-              {/* Trenton */}
-              <div className="col-sm-8 col-lg-6">
-                <figure className="figure">
-                  <img
-                    src={TS}
-                    className="App-logo img-responsive"
-                    alt="Trenton"
-                  />
-                  <a
-                    href="https://www.facebook.com/trenton.sicola"
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    {" "}
-                    <figcaption class="figure-caption text-right">
-                      Trenton Scicola - drums
-                    </figcaption>
-                  </a>
-                  <hr />
-                  <p className="caption text-left"></p>
                 </figure>
               </div>
 
