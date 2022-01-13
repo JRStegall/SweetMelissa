@@ -30,6 +30,39 @@ function Xtras() {
         <div className="row">
           <div className="col this">
             <div className="row pics">
+              {/* Damian */}
+              <div className="col-sm-8 col-lg-6">
+                <figure className="figure">
+                  <img
+                    src={DK}
+                    className="App-logo img-responsive"
+                    alt="Damian"
+                  />
+                  <a
+                    href="https://www.facebook.com/damian.kapcala"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    {" "}
+                    <figcaption class="figure-caption text-right">
+                      Damian Kapcala - keys
+                    </figcaption>
+                  </a>
+                  <p className="caption text-left">
+                    Damian Kapcala &amp; Friends,
+                    <a href="https://www.facebook.com/franklyscarletjams">
+                      Frankly Scarlet
+                    </a>
+                    , The Incredible Sandwich, Lionz, The Last Jamurai, New
+                    Nature, Another Fiasco, FieldTrip, Thelonious, Sonic Boom,
+                    Nathan Shephard, Cardboard Willie, Chattahoochee Cannibals,
+                    Bernie Worrell &amp; Friends, Ansley Stewart &amp; The
+                    Replaceables, KASVOT Fox
+                  </p>
+                  <hr />
+                </figure>
+              </div>
+
               {/* BARRY */}
               <div className="col-sm-8 col-lg-6">
                 <figure className="figure">
@@ -218,39 +251,6 @@ function Xtras() {
                       Deemsters
                     </a>
                     , Larkin Poe, The Whiskey Gentry
-                  </p>
-                  <hr />
-                </figure>
-              </div>
-
-              {/* Damian */}
-              <div className="col-sm-8 col-lg-6">
-                <figure className="figure">
-                  <img
-                    src={DK}
-                    className="App-logo img-responsive"
-                    alt="Damian"
-                  />
-                  <a
-                    href="https://www.facebook.com/damian.kapcala"
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    {" "}
-                    <figcaption class="figure-caption text-right">
-                      Damian Kapcala - keys
-                    </figcaption>
-                  </a>
-                  <p className="caption text-left">
-                    Damian Kapcala &amp; Friends,
-                    <a href="https://www.facebook.com/franklyscarletjams">
-                      Frankly Scarlet
-                    </a>
-                    , The Incredible Sandwich, Lionz, The Last Jamurai, New
-                    Nature, Another Fiasco, FieldTrip, Thelonious, Sonic Boom,
-                    Nathan Shephard, Cardboard Willie, Chattahoochee Cannibals,
-                    Bernie Worrell &amp; Friends, Ansley Stewart &amp; The
-                    Replaceables, KASVOT Fox
                   </p>
                   <hr />
                 </figure>
