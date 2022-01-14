@@ -66,7 +66,7 @@ function MusicPage() {
               the Dog, for 7 years and has continued writing original music for
               Snack Attack and for solo purposes. &nbsp;A multi-instrumentalist
               versatile with keyboards, percussion and most string instruments,
-              Johnny mostly focuses on bass & vocals. &nbsp;Aside from Sweet
+              Johnny primarily focuses on bass & vocals. &nbsp;Aside from Sweet
               Melissa & the Ramblin’ Men he currently plays in the Phish tribute
               band Skyballs, Pink Floyd/Led Zeppelin tribute band Pink Zeppelin,
               Led Zeppelin tribute band Led Zeppelified and jam band The Johnnys
