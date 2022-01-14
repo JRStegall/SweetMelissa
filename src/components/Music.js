@@ -21,12 +21,12 @@ function MusicPage() {
             <h4>Melissa Goehner</h4>
             <p>
               Being a lfe long lover of music, Melissa began singing along with
-              whatever should heard before she could even talk. &nbsp;Named
-              after the song, Melissa grew up in a house filled with music, but
-              The Allman Brothers holds a special place. &nbsp;As her dads
-              favorite band, The Allman Brothers were on constant rotation on
-              the record player. &nbsp;And when the Brothers came to town, the
-              whole family frequently went together.
+              whatever she heard before she could even talk. &nbsp;Named after
+              the song, Melissa grew up in a house filled with music, but The
+              Allman Brothers holds a special place. &nbsp;As her dads favorite
+              band, The Allman Brothers were on constant rotation on the record
+              player. &nbsp;And when the Brothers came to town, the whole family
+              frequently went together.
               <br></br>As her love of music grew, as did her influences: Janis
               Joplin, Aretha Franklin, Ani Defranco, and Susan Tedeschi are just
               some of the artists who make up the list. &nbsp;
