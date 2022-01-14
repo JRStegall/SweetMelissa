@@ -52,7 +52,26 @@ function MusicPage() {
           </div>
           <div className="col-sm-12 col-lg-7">
             <h4>Johnny Barrett</h4>
-            <p>Johnny plays bass.</p>
+            <p>
+              Bassist and vocalist Johnny Barrett was born in Chicago, IL and
+              raised in Atlanta, GA. &nbsp;His grandfather was an accomplished
+              bandleader and his father exposed him to jazz from a young age,
+              which led to his interest in jam- and improv-oriented rock music.
+              &nbsp;Additional music theory training developed his appreciation
+              for progressive rock.&nbsp; Initially content to focus on the bass
+              guitar and write songs, he started taking singing seriously after
+              appearing in a few musicals in high school and various bands
+              throughout college. &nbsp;Johnny has been playing in the Georgia
+              music scene for over 10 years, fronting his original band, Vincent
+              the Dog, for 7 years and has continued writing original music for
+              Snack Attack and for solo purposes. &nbsp;A multi-instrumentalist
+              versatile with keyboards, percussion and most string instruments,
+              Johnny mostly focuses on bass & vocals. &nbsp;Aside from Sweet
+              Melissa & the Ramblin’ Men he currently plays in the Phish tribute
+              band Skyballs, Pink Floyd/Led Zeppelin tribute band Pink Zeppelin,
+              Led Zeppelin tribute band Led Zeppelified and jam band The Johnnys
+              alongside guitarist John E. Jordan.
+            </p>
           </div>
         </div>
         <hr />
