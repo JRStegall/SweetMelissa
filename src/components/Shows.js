@@ -26,6 +26,8 @@ import Band3 from "../Images/band3.jpeg";
 import Band4 from "../Images/band4.jpeg";
 import Band6 from "../Images/band6.jpeg";
 import TGR from "../Images/tgr.jpeg";
+import TGR1 from "../Images/tgr1.jpeg";
+import NAP from "../Images/nap1.jpeg";
 import BRAG from "../Images/brag1.jpeg";
 import Porch1 from "../Images/porchfest1.jpeg";
 import Porch2 from "../Images/porchfest2.jpeg";
@@ -50,6 +52,16 @@ function ShowList() {
                 keyBoard={false}
                 pauseOnHover={true}
               >
+                <Carousel.Item>
+                  <img
+                    className="d-block w-100"
+                    src={TGR1}
+                    alt="The Green Room, Feb."
+                  ></img>
+                  <Carousel.Caption>
+                    <h5>The Green Room - 2/12/2022</h5>
+                  </Carousel.Caption>
+                </Carousel.Item>
                 <Carousel.Item>
                   <img
                     className="d-block w-100"
