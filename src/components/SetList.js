@@ -23,7 +23,7 @@ function Set() {
                   {" "}
                   The Green Room{" "}
                 </a>{" "}
-                - Saturday, February 12 @ 8pm
+                - Saturday, February 12 @ 7pm
               </li>
             </ul>
 
