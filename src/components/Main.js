@@ -1,6 +1,6 @@
 import React from "react";
 import Carousel from "react-bootstrap/Carousel";
-import Bandlogo from "../Images/flyer6.jpeg";
+import Bandlogo from "../Images/bandlogo.jpeg";
 import Mel from "../Images/melissa.jpeg";
 import CR from "../Images/critter.jpeg";
 import AK from "../Images/aaron.jpeg";

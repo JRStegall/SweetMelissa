@@ -1,5 +1,5 @@
 import React from "react";
-import Bandlogo from "../Images/flyer6.jpeg";
+import Bandlogo from "../Images/bandlogo.jpeg";
 
 function Head() {
   return (
