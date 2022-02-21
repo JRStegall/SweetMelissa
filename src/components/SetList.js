@@ -4,6 +4,7 @@ import { Route } from "react-router";
 import NPLN from "../Images/nap1.jpeg";
 import TGR from "../Images/tgr1.jpeg";
 import MOMS from "../Images/moms1.jpeg";
+import LOGO from "../Images/bandlogo.jpeg";
 function Set() {
   return (
     <div className="Main band list">
@@ -11,21 +12,6 @@ function Set() {
         <div className="listRow row">
           <div className="col-12">
             <h4>Upcoming Events</h4>
-
-            <ul>
-              <li>
-                <img src={TGR} className="steady img-responsive" alt="logo" />
-                <a
-                  href="https://www.facebook.com/thegreenroomofmableton/?ref=page_internal"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  {" "}
-                  The Green Room{" "}
-                </a>{" "}
-                - Saturday, February 12 @ 7pm
-              </li>
-            </ul>
 
             <ul>
               <li>
@@ -41,7 +27,17 @@ function Set() {
                 - Saturday, March 12 @ 8pm
               </li>
             </ul>
-
+            <ul>
+              <li>
+                {" "}
+                <img
+                  src={LOGO}
+                  className="steady img-responsive"
+                  alt="logo"
+                />{" "}
+                Private Event April 2nd
+              </li>
+            </ul>
             <ul>
               <li>
                 <img src={MOMS} className="steady img-responsive" alt="logo" />
