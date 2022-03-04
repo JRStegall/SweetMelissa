@@ -2,9 +2,9 @@ import React from "react";
 import { Route } from "react-router";
 // import SteadyHand from "../Images/steadyhand.jpeg";
 import NPLN from "../Images/nap1.jpeg";
-import TGR from "../Images/tgr1.jpeg";
+//import TGR from "../Images/tgr1.jpeg";
 import MOMS from "../Images/moms1.jpeg";
-import LOGO from "../Images/bandlogo.jpeg";
+//import LOGO from "../Images/bandlogo.jpeg";
 function Set() {
   return (
     <div className="Main band list">
