@@ -27,17 +27,7 @@ function Set() {
                 - Saturday, March 12 @ 8pm
               </li>
             </ul>
-            <ul>
-              <li>
-                {" "}
-                <img
-                  src={LOGO}
-                  className="steady img-responsive"
-                  alt="logo"
-                />{" "}
-                Private Event April 2nd
-              </li>
-            </ul>
+
             <ul>
               <li>
                 <img src={MOMS} className="steady img-responsive" alt="logo" />
