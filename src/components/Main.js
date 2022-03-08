@@ -6,7 +6,7 @@ import CR from "../Images/critter.jpeg";
 import AK from "../Images/aaron.jpeg";
 import JS from "../Images/js.jpeg";
 import JB from "../Images/johnny.jpeg";
-import DR from "../Images/diane.jpeg";
+// import DR from "../Images/diane.jpeg";
 
 function Main() {
   return (
@@ -42,12 +42,14 @@ function Main() {
                   <h6>Aaron Kaufman - Drums</h6>
                 </Carousel.Caption>
               </Carousel.Item>
-              <Carousel.Item>
+
+              {/* <Carousel.Item>
                 <img className="d-block w-100 diane" src={DR} alt="Diane"></img>
                 <Carousel.Caption className="capBkgrnd">
                   <h6>Diane Rabson - Keys</h6>
                 </Carousel.Caption>
-              </Carousel.Item>
+              </Carousel.Item> */}
+
               <Carousel.Item className="crit">
                 <img
                   className="crit d-block w-100 crit"
