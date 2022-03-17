@@ -46,7 +46,7 @@ function Xtras() {
                   >
                     {" "}
                     <figcaption class="figure-caption text-right">
-                      <span>(Introducing)</span> Ethan Parks - Drums
+                      Ethan Parks - Drums
                     </figcaption>
                   </a>
                   <p className="caption text-left">Khalico</p>
