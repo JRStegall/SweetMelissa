@@ -270,6 +270,10 @@ h5,
     height: 400px;
   }
 
+  span {
+    font-size: 50%;
+  }
+
   /************************SHOWS PAGE***************/
   .gallery {
     margin-top: 30%;

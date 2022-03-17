@@ -13,6 +13,7 @@ import AS from "../Images/adam.jpeg";
 import AWG from "../Images/allen.jpeg";
 import JF from "../Images/jerbo.jpeg";
 import NL from "../Images/nico.jpeg";
+import EP from "../Images/ethan.jpeg";
 import { Route } from "react-router";
 
 function Xtras() {
@@ -30,6 +31,29 @@ function Xtras() {
         <div className="row">
           <div className="col this">
             <div className="row pics">
+              {/* Ethan */}
+              <div className="col-sm-8 col-lg-6">
+                <figure className="figure">
+                  <img
+                    src={EP}
+                    className="App-logo img-responsive"
+                    alt="Ethan"
+                  />
+                  <a
+                    href="https://www.facebook.com/jessesunga"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    {" "}
+                    <figcaption class="figure-caption text-right">
+                      <span>(Introducing)</span> Ethan Parks - Drums
+                    </figcaption>
+                  </a>
+                  <p className="caption text-left">Khalico</p>
+                  <hr />
+                </figure>
+              </div>
+
               {/* Damian */}
               <div className="col-sm-8 col-lg-6">
                 <figure className="figure">
@@ -63,26 +87,26 @@ function Xtras() {
                 </figure>
               </div>
 
-              {/* Trenton */}
+              {/* Jesse */}
               <div className="col-sm-8 col-lg-6">
                 <figure className="figure">
                   <img
-                    src={TS}
+                    src={Jesse}
                     className="App-logo img-responsive"
-                    alt="Trenton"
+                    alt="Jessie"
                   />
                   <a
-                    href="https://www.facebook.com/trenton.sicola"
+                    href="https://www.facebook.com/jessesunga"
                     target="_blank"
                     rel="noreferrer"
                   >
                     {" "}
                     <figcaption class="figure-caption text-right">
-                      Trenton Scicola - drums
+                      Jesse Sunga - guitar
                     </figcaption>
                   </a>
-                  <hr />
                   <p className="caption text-left"></p>
+                  <hr />
                 </figure>
               </div>
 
@@ -170,26 +194,26 @@ function Xtras() {
                 </figure>
               </div>
 
-              {/* Jesse */}
+              {/* Trenton */}
               <div className="col-sm-8 col-lg-6">
                 <figure className="figure">
                   <img
-                    src={Jesse}
+                    src={TS}
                     className="App-logo img-responsive"
-                    alt="Jessie"
+                    alt="Trenton"
                   />
                   <a
-                    href="https://www.facebook.com/jessesunga"
+                    href="https://www.facebook.com/trenton.sicola"
                     target="_blank"
                     rel="noreferrer"
                   >
                     {" "}
                     <figcaption class="figure-caption text-right">
-                      Jesse Sunga - guitar
+                      Trenton Scicola - drums
                     </figcaption>
                   </a>
-                  <p className="caption text-left"></p>
                   <hr />
+                  <p className="caption text-left"></p>
                 </figure>
               </div>
 
