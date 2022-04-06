@@ -1,10 +1,11 @@
 import React from "react";
 import { Route } from "react-router";
 // import SteadyHand from "../Images/steadyhand.jpeg";
-import NPLN from "../Images/nap1.jpeg";
+//import NPLN from "../Images/nap1.jpeg";
 //import TGR from "../Images/tgr1.jpeg";
+import THH from "../Images/hunthouse.webp";
 import MOMS from "../Images/moms1.jpeg";
-//import LOGO from "../Images/bandlogo.jpeg";
+import LOGO from "../Images/bandlogo.jpeg";
 function Set() {
   return (
     <div className="Main band list">
@@ -12,21 +13,6 @@ function Set() {
         <div className="listRow row">
           <div className="col-12">
             <h4>Upcoming Events</h4>
-
-            <ul>
-              <li>
-                <img src={NPLN} className="steady img-responsive" alt="logo" />
-                <a
-                  href="https://www.napoleonsgrill.com/"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  {" "}
-                  Napoleon's Grill{" "}
-                </a>{" "}
-                - Saturday, March 12 @ 8pm
-              </li>
-            </ul>
 
             <ul>
               <li>
@@ -47,6 +33,36 @@ function Set() {
                 >
                   Pre-Sale Tickets
                 </a>
+              </li>
+            </ul>
+
+            <ul>
+              <li>
+                <img src={LOGO} className="steady img-responsive" alt="logo" />
+                <a
+                  href="https://www.napoleonsgrill.com/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  {" "}
+                  Private Event{" "}
+                </a>{" "}
+                - Saturday, May 21
+              </li>
+            </ul>
+
+            <ul>
+              <li>
+                <img src={THH} className="steady img-responsive" alt="logo" />
+                <a
+                  href="https://www.napoleonsgrill.com/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  {" "}
+                  The Hunt House{" "}
+                </a>{" "}
+                - Saturday, June 18 @ 8pm
               </li>
             </ul>
 

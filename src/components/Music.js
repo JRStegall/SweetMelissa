@@ -185,6 +185,88 @@ function MusicPage() {
         <span id="span">(Previously recorded, obviously...)</span>
         <div className="row">
           <div className="col-lg-1"></div>
+
+          <div className="col-sm-12 col-lg-4 ">
+            <div /**react player div */>
+              <ReactPlayer
+                className="react-player"
+                height="100%"
+                width="100%"
+                url="https://www.facebook.com/sweetmelissaandtheramblinmen/videos/749489613138635/"
+              ></ReactPlayer>
+              <p className="playerCap">
+                Trouble No More - Napoleon's 3/12/2022
+              </p>
+            </div>
+          </div>
+
+          <div className="col-sm-12 col-lg-4 ">
+            <div /**react player div */>
+              <ReactPlayer
+                className="react-player"
+                height="100%"
+                width="100%"
+                url="https://www.facebook.com/sweetmelissaandtheramblinmen/videos/681558439722473/"
+              ></ReactPlayer>
+              <p className="playerCap">
+                Don't Keep Me Wondering - Napoleon's 3/12/2022
+              </p>
+            </div>
+          </div>
+
+          <div className="col-sm-12 col-lg-4 ">
+            <div /**react player div */>
+              <ReactPlayer
+                className="react-player"
+                height="100%"
+                width="100%"
+                url="https://www.facebook.com/sweetmelissaandtheramblinmen/videos/509786347349034/"
+              ></ReactPlayer>
+              <p className="playerCap">One Way Out - Napoleon's 3/12/2022</p>
+            </div>
+          </div>
+
+          <div className="col-sm-12 col-lg-4 ">
+            <div /**react player div */>
+              <ReactPlayer
+                className="react-player"
+                height="100%"
+                width="100%"
+                url="https://www.facebook.com/sweetmelissaandtheramblinmen/videos/1026177954962884/"
+              ></ReactPlayer>
+              <p className="playerCap">
+                Don't Want You No More/Not My Cross To Bear - Napoleon's
+                3/12/2022
+              </p>
+            </div>
+          </div>
+
+          <div className="col-sm-12 col-lg-4 ">
+            <div /**react player div */>
+              <ReactPlayer
+                className="react-player"
+                height="100%"
+                width="100%"
+                url="https://www.facebook.com/sweetmelissaandtheramblinmen/videos/4608522752587206/"
+              ></ReactPlayer>
+              <p className="playerCap">Jessica - Napoleon's 3/12/2022</p>
+            </div>
+          </div>
+
+          <div className="col-sm-12 col-lg-4 ">
+            <div /**react player div */>
+              <ReactPlayer
+                className="react-player"
+                height="100%"
+                width="100%"
+                url="https://www.facebook.com/sweetmelissaandtheramblinmen/videos/761548188084457/"
+              ></ReactPlayer>
+              <p className="playerCap">
+                Black Hearted Woman - Napoleon's 3/12/2022
+              </p>
+            </div>
+          </div>
+
           <div className="col-sm-12 col-lg-4 ">
             <div /**REACT PLAYER DIV **/>
               <ReactPlayer
