@@ -103,7 +103,7 @@ function Xtras() {
                       Ethan Parks - drums
                     </figcaption>
                   </a>
-                  <p className="caption text-left">Khalico, Lovechild</p>
+                  <p className="caption text-left">Khaliko, Lovechild</p>
                   <hr />
                 </figure>
               </div>
@@ -152,7 +152,7 @@ function Xtras() {
                   <figcaption class="figure-caption text-right">
                     Aidan Babuka-Black - keys
                   </figcaption>
-                  <p className="caption text-left">Khalico, Lovechild</p>
+                  <p className="caption text-left">Khaliko, Lovechild</p>
                   <hr />
                 </figure>
               </div>
