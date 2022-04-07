@@ -53,7 +53,9 @@ function Xtras() {
                       Ronnie Bullock - keys
                     </figcaption>
                   </a>
-                  <p className="caption text-left"></p>
+                  <p className="caption text-left">
+                    Blue Talk, Subcontra, Tyler Neal Band
+                  </p>
                   <hr />
                 </figure>
               </div>
@@ -311,10 +313,11 @@ function Xtras() {
                       Trenton Scicola - drums
                     </figcaption>
                   </a>
-                  <hr />
+
                   <p className="caption text-left">
                     Electric Codpiece, Ol' Matt Donald's Farm
                   </p>
+                  <hr />
                 </figure>
               </div>
 
