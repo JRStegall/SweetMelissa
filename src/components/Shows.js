@@ -34,7 +34,6 @@ import NAP4 from "../Images/nap4.jpeg";
 import NAP5 from "../Images/nap5.jpeg";
 import NAP6 from "../Images/nap6.jpeg";
 import NAP7 from "../Images/nap7.jpeg";
-import NAP8 from "../Images/nap8.jpeg";
 import NAP9 from "../Images/nap9.jpeg";
 import NAP10 from "../Images/nap10.jpeg";
 import NAP11 from "../Images/nap11.jpeg";
@@ -132,17 +131,6 @@ function ShowList() {
                   <img
                     className="d-block w-100"
                     src={NAP7}
-                    alt="Napoleon's - 3/12/2022"
-                  ></img>
-                  <Carousel.Caption>
-                    <h5>Napoleon's - 3/12/2022</h5>
-                  </Carousel.Caption>
-                </Carousel.Item>
-
-                <Carousel.Item>
-                  <img
-                    className="d-block w-100"
-                    src={NAP8}
                     alt="Napoleon's - 3/12/2022"
                   ></img>
                   <Carousel.Caption>
