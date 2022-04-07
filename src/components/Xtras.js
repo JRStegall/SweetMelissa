@@ -73,10 +73,12 @@ function Xtras() {
                   >
                     {" "}
                     <figcaption class="figure-caption text-right">
-                      Andrew Barnes - Bass
+                      Andrew Barnes - bass
                     </figcaption>
                   </a>
-                  <p className="caption text-left"></p>
+                  <p className="caption text-left">
+                    East Avenue Revue, Wax Throwbacks
+                  </p>
                   <hr />
                 </figure>
               </div>
@@ -96,7 +98,7 @@ function Xtras() {
                   >
                     {" "}
                     <figcaption class="figure-caption text-right">
-                      Ethan Parks - Drums
+                      Ethan Parks - drums
                     </figcaption>
                   </a>
                   <p className="caption text-left">Khalico, Lovechild</p>
@@ -296,7 +298,7 @@ function Xtras() {
                 <figure className="figure">
                   <img
                     src={TS}
-                    className="App-logo img-responsive"
+                    className="App-logo img-responsive trenton"
                     alt="Trenton"
                   />
                   <a
@@ -349,7 +351,7 @@ function Xtras() {
                 <figure className="figure">
                   <img
                     src={NL}
-                    className="App-logo img-responsive"
+                    className="App-logo img-responsive nico"
                     alt="Nico"
                   />
                   <a
@@ -435,7 +437,7 @@ function Xtras() {
                 <figure className="figure">
                   <img
                     src={AA}
-                    className="App-logo img-responsive"
+                    className="App-logo img-responsive adrian"
                     alt="Adrian"
                   />
                   <a
@@ -534,7 +536,7 @@ function Xtras() {
                 <figure className="figure">
                   <img
                     src={AS}
-                    className="App-logo img-responsive"
+                    className="App-logo img-responsive adam"
                     alt="Simon"
                   />
                   <a

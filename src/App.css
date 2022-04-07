@@ -154,19 +154,15 @@ h5,
   color: rgb(211, 196, 173);
 }
 
-.joel {
-  width: 500px;
-}
-
-.jerbo {
-  width: 500px;
-}
-
-.ronnie {
-  width: 500px;
-}
-
-.ethan {
+.joel,
+.jerbo,
+.ronnie,
+.ethan,
+.nico,
+.diane,
+.adrian,
+.adam,
+.trenton {
   width: 500px;
 }
 
