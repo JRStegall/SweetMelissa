@@ -1,4 +1,5 @@
 import React from "react";
+import { Route } from "react-router";
 import RJ from "../Images/richie.jpeg";
 import BR from "../Images/barry.jpeg";
 import TS from "../Images/trenton.jpeg";
@@ -14,7 +15,10 @@ import AWG from "../Images/allen.jpeg";
 import JF from "../Images/jerbo.jpeg";
 import NL from "../Images/nico.jpeg";
 import EP from "../Images/ethan.jpeg";
-import { Route } from "react-router";
+import DR from "../Images/diane.jpeg";
+import AB from "../Images/aidan.jpeg";
+import AnB from "../Images/andrew.jpeg";
+import RB from "../Images/ronnie.jpeg";
 
 function Xtras() {
   return (
@@ -31,16 +35,62 @@ function Xtras() {
         <div className="row">
           <div className="col this">
             <div className="row pics">
+              {/* Ronnie */}
+              <div className="col-sm-8 col-lg-6">
+                <figure className="figure">
+                  <img
+                    src={RB}
+                    className="App-logo img-responsive ronnie"
+                    alt="Ronnie"
+                  />
+                  <a
+                    href="https://www.facebook.com/ronnie.bullock.140"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    {" "}
+                    <figcaption class="figure-caption text-right">
+                      Ronnie Bullock - keys
+                    </figcaption>
+                  </a>
+                  <p className="caption text-left"></p>
+                  <hr />
+                </figure>
+              </div>
+
+              {/*  Andrew */}
+              <div className="col-sm-8 col-lg-6">
+                <figure className="figure">
+                  <img
+                    src={AnB}
+                    className="App-logo img-responsive"
+                    alt="Andrew"
+                  />
+                  <a
+                    href="https://www.facebook.com/andrew.barnes.18659/"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    {" "}
+                    <figcaption class="figure-caption text-right">
+                      Andrew Barnes - Bass
+                    </figcaption>
+                  </a>
+                  <p className="caption text-left"></p>
+                  <hr />
+                </figure>
+              </div>
+
               {/* Ethan */}
               <div className="col-sm-8 col-lg-6">
                 <figure className="figure">
                   <img
                     src={EP}
-                    className="App-logo img-responsive"
+                    className="App-logo img-responsive ethan"
                     alt="Ethan"
                   />
                   <a
-                    href="https://www.facebook.com/jessesunga"
+                    href="https://www.facebook.com/ethan.parks.942"
                     target="_blank"
                     rel="noreferrer"
                   >
@@ -49,7 +99,7 @@ function Xtras() {
                       Ethan Parks - Drums
                     </figcaption>
                   </a>
-                  <p className="caption text-left">Khalico</p>
+                  <p className="caption text-left">Khalico, Lovechild</p>
                   <hr />
                 </figure>
               </div>
@@ -87,6 +137,22 @@ function Xtras() {
                 </figure>
               </div>
 
+              {/* Aidan */}
+              <div className="col-sm-8 col-lg-6">
+                <figure className="figure">
+                  <img
+                    src={AB}
+                    className="App-logo img-responsive"
+                    alt="Aidan"
+                  />{" "}
+                  <figcaption class="figure-caption text-right">
+                    Aidan Babuka-Black - keys
+                  </figcaption>
+                  <p className="caption text-left">Khalico, Lovechild</p>
+                  <hr />
+                </figure>
+              </div>
+
               {/* Jesse */}
               <div className="col-sm-8 col-lg-6">
                 <figure className="figure">
@@ -105,7 +171,7 @@ function Xtras() {
                       Jesse Sunga - guitar
                     </figcaption>
                   </a>
-                  <p className="caption text-left"></p>
+                  <p className="caption text-left">Blue Mischief, Staff</p>
                   <hr />
                 </figure>
               </div>
@@ -133,8 +199,8 @@ function Xtras() {
                       {" "}
                       The Barry Richman Band, The Allman Brothers Band, Gov't
                       Mule, Derek Trucks, Eric Clapton, Bruce Hampton, Zack
-                      Brown, Little Feat, John Lee Hooker, Mike Gordon &amp;
-                      John Fishman (Phish), Buddy Miles (Band of Gypsies)
+                      Brown Band, Little Feat, John Lee Hooker, Mike Gordon
+                      &amp; John Fishman (Phish), Buddy Miles (Band of Gypsies)
                     </a>
                   </p>
                   <hr />
@@ -187,8 +253,39 @@ function Xtras() {
                     </figcaption>
                   </a>
                   <p className="caption text-left">
-                    Potch, Dot_Line Project, Spaceship Racecar, Donna Hopkins,
-                    Ralph Rodenberry
+                    Dot_Line Project, Spaceship Racecar, Donna Hopkins, Ralph
+                    Rodenberry, Jimmy Hall
+                  </p>
+                  <hr />
+                </figure>
+              </div>
+
+              {/* Diane */}
+              <div className="col-sm-8 col-lg-6">
+                <figure className="figure">
+                  <img
+                    src={DR}
+                    className="App-logo img-responsive diane"
+                    alt="Diane"
+                  />
+                  <a
+                    href="https://www.facebook.com/diane.rabson/"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    {" "}
+                    <figcaption className="figure-caption text-right">
+                      Diane Rabson - keys
+                    </figcaption>
+                  </a>
+                  <p className="caption text-left">
+                    <a href="https://www.facebook.com/webster.atlanta">
+                      Webster
+                    </a>
+                    ,{" "}
+                    <a href="https://www.facebook.com/gr8fuldude">
+                      Gr8ful Düde &amp; Frenz
+                    </a>
                   </p>
                   <hr />
                 </figure>
@@ -213,7 +310,9 @@ function Xtras() {
                     </figcaption>
                   </a>
                   <hr />
-                  <p className="caption text-left"></p>
+                  <p className="caption text-left">
+                    Electric Codpiece, Ol' Matt Donald's Farm
+                  </p>
                 </figure>
               </div>
 
@@ -239,7 +338,7 @@ function Xtras() {
                     <a href="https://www.facebook.com/franklyscarletjams">
                       Frankly Scarlet
                     </a>
-                    , Spaceship Racecar, Potch, Dot_Line Project
+                    , Spaceship Racecar, Dot_Line Project, Mullholland Project
                   </p>
                   <hr />
                 </figure>
@@ -298,7 +397,10 @@ function Xtras() {
                       Allen Welty-Green - keys
                     </figcaption>
                   </a>
-                  <p className="caption text-left"></p>
+                  <p className="caption text-left">
+                    Jerome Newton &amp; The Band Who Fell To Earth, Zentropy,
+                    Z-Axis
+                  </p>
                   <hr />
                 </figure>
               </div>
@@ -321,7 +423,9 @@ function Xtras() {
                       Tyler Neal - guitar
                     </figcaption>
                   </a>
-                  <p className="caption text-left">Tyler Neal Band</p>
+                  <p className="caption text-left">
+                    Tyler Neal Band, Col. Bruce Hampton, Madrid Express
+                  </p>
                   <hr />
                 </figure>
               </div>
@@ -446,7 +550,7 @@ function Xtras() {
                   <p className="caption text-left">
                     <a href="https://www.facebook.com/skyballsmusic">
                       {" "}
-                      Skyballs: Atlanta's Phish Tribute Band
+                      Skyballs: Atlanta's Phish Tribute Band, Potch
                     </a>
                   </p>
                   <hr />
