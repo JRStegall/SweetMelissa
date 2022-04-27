@@ -4,6 +4,7 @@ import Carousel from "react-bootstrap/Carousel";
 import Melissa from "../Images/melissa2.jpeg";
 import Johnny from "../Images/johnny.jpeg";
 import Barry from "../Images/barry1.jpeg";
+
 import MomSelfie from "../Images/momSelfie.jpeg";
 import Moms from "../Images/moms1.jpeg";
 import Moms3 from "../Images/moms3.jpeg";
@@ -21,12 +22,33 @@ import Moms23 from "../Images/moms23.jpeg";
 import Moms25 from "../Images/moms25.jpeg";
 import Moms28 from "../Images/moms28.jpeg";
 import Moms30 from "../Images/moms30.jpeg";
+import Moms31 from "../Images/moms31.jpeg";
+import Moms32 from "../Images/moms32.jpeg";
+import Moms35 from "../Images/moms35.jpeg";
+import Moms36 from "../Images/moms36.jpeg";
+import Moms37 from "../Images/moms37.jpeg";
+import Moms38 from "../Images/moms38.jpeg";
+import Moms39 from "../Images/moms39.jpeg";
+import Moms40 from "../Images/moms40.jpeg";
+import Moms41 from "../Images/moms41.jpeg";
+import Moms42 from "../Images/moms42.jpeg";
+import Moms43 from "../Images/moms43.jpeg";
+import Moms44 from "../Images/moms44.jpeg";
+import Moms45 from "../Images/moms45.jpeg";
+import Moms47 from "../Images/moms47.jpeg";
+import Moms49 from "../Images/moms49.jpeg";
+import Moms53 from "../Images/moms53.jpeg";
+import Moms52 from "../Images/moms52.jpeg";
+import Moms55 from "../Images/moms55.jpeg";
 import Band2 from "../Images/band2.jpeg";
 import Band3 from "../Images/band3.jpeg";
 import Band4 from "../Images/band4.jpeg";
 import Band6 from "../Images/band6.jpeg";
+import MOMSF from "../Images/momsFlyer.jpeg";
+
 import TGR from "../Images/tgr.jpeg";
 import TGR1 from "../Images/tgr1.jpeg";
+
 import NAP1 from "../Images/nap1.jpeg";
 import NAP2 from "../Images/nap2.jpeg";
 import NAP3 from "../Images/nap3.jpeg";
@@ -40,7 +62,6 @@ import NAP11 from "../Images/nap11.jpeg";
 import NAP12 from "../Images/nap12.jpeg";
 import NAP13 from "../Images/nap13.jpeg";
 import NAP15 from "../Images/nap15.jpeg";
-
 import NAP19 from "../Images/nap19.jpeg";
 import NAP21 from "../Images/nap21.jpeg";
 import NAP22 from "../Images/nap22.jpeg";
@@ -72,6 +93,206 @@ function ShowList() {
                 keyBoard={false}
                 pauseOnHover={true}
               >
+                {/* MOMS 4/23 */}
+                <Carousel.Item>
+                  <img
+                    className="d-block w-100"
+                    src={MOMSF}
+                    alt="MOMS, April"
+                  ></img>
+                  <Carousel.Caption>
+                    <h5>Music On Main Street, 4/23/2022</h5>
+                  </Carousel.Caption>
+                </Carousel.Item>
+
+                <Carousel.Item>
+                  <img
+                    className="d-block w-100"
+                    src={Moms40}
+                    alt="MOMS, April"
+                  ></img>
+                  <Carousel.Caption>
+                    <h5>Music On Main Street, 4/23/2022</h5>
+                  </Carousel.Caption>
+                </Carousel.Item>
+
+                <Carousel.Item>
+                  <img
+                    className="d-block w-100"
+                    src={Moms35}
+                    alt="MOMS, April"
+                  ></img>
+                  <Carousel.Caption>
+                    <h5>Music On Main Street, 4/23/2022</h5>
+                  </Carousel.Caption>
+                </Carousel.Item>
+
+                <Carousel.Item>
+                  <img
+                    className="d-block w-100"
+                    src={Moms41}
+                    alt="MOMS, April"
+                  ></img>
+                  <Carousel.Caption>
+                    <h5>Music On Main Street, 4/23/2022</h5>
+                  </Carousel.Caption>
+                </Carousel.Item>
+
+                <Carousel.Item>
+                  <img
+                    className="d-block w-100"
+                    src={Moms31}
+                    alt="MOMS, April"
+                  ></img>
+                  <Carousel.Caption>
+                    <h5>Music On Main Street, 4/23/2022</h5>
+                  </Carousel.Caption>
+                </Carousel.Item>
+
+                <Carousel.Item>
+                  <img
+                    className="d-block w-100"
+                    src={Moms32}
+                    alt="MOMS, April"
+                  ></img>
+                  <Carousel.Caption>
+                    <h5>Music On Main Street, 4/23/2022</h5>
+                  </Carousel.Caption>
+                </Carousel.Item>
+
+                <Carousel.Item>
+                  <img
+                    className="d-block w-100"
+                    src={Moms52}
+                    alt="MOMS, April"
+                  ></img>
+                  <Carousel.Caption>
+                    <h5>Music On Main Street, 4/23/2022</h5>
+                  </Carousel.Caption>
+                </Carousel.Item>
+
+                <Carousel.Item>
+                  <img
+                    className="d-block w-100"
+                    src={Moms45}
+                    alt="MOMS, April"
+                  ></img>
+                  <Carousel.Caption>
+                    <h5>Music On Main Street, 4/23/2022</h5>
+                  </Carousel.Caption>
+                </Carousel.Item>
+
+                <Carousel.Item>
+                  <img
+                    className="d-block w-100"
+                    src={Moms42}
+                    alt="MOMS, April"
+                  ></img>
+                  <Carousel.Caption>
+                    <h5>Music On Main Street, 4/23/2022</h5>
+                  </Carousel.Caption>
+                </Carousel.Item>
+
+                <Carousel.Item>
+                  <img
+                    className="d-block w-100"
+                    src={Moms38}
+                    alt="MOMS, April"
+                  ></img>
+                  <Carousel.Caption>
+                    <h5>Music On Main Street, 4/23/2022</h5>
+                  </Carousel.Caption>
+                </Carousel.Item>
+
+                <Carousel.Item>
+                  <img
+                    className="d-block w-100"
+                    src={Moms49}
+                    alt="MOMS, April"
+                  ></img>
+                  <Carousel.Caption>
+                    <h5>Music On Main Street, 4/23/2022</h5>
+                  </Carousel.Caption>
+                </Carousel.Item>
+
+                <Carousel.Item>
+                  <img
+                    className="d-block w-100"
+                    src={Moms53}
+                    alt="MOMS, April"
+                  ></img>
+                  <Carousel.Caption>
+                    <h5>Music On Main Street, 4/23/2022</h5>
+                  </Carousel.Caption>
+                </Carousel.Item>
+
+                <Carousel.Item>
+                  <img
+                    className="d-block w-100"
+                    src={Moms43}
+                    alt="MOMS, April"
+                  ></img>
+                  <Carousel.Caption>
+                    <h5>Music On Main Street, 4/23/2022</h5>
+                  </Carousel.Caption>
+                </Carousel.Item>
+
+                <Carousel.Item>
+                  <img
+                    className="d-block w-100"
+                    src={Moms44}
+                    alt="MOMS, April"
+                  ></img>
+                  <Carousel.Caption>
+                    <h5>Music On Main Street, 4/23/2022</h5>
+                  </Carousel.Caption>
+                </Carousel.Item>
+
+                <Carousel.Item>
+                  <img
+                    className="d-block w-100"
+                    src={Moms47}
+                    alt="MOMS, April"
+                  ></img>
+                  <Carousel.Caption>
+                    <h5>Music On Main Street, 4/23/2022</h5>
+                  </Carousel.Caption>
+                </Carousel.Item>
+
+                <Carousel.Item>
+                  <img
+                    className="d-block w-100"
+                    src={Moms37}
+                    alt="MOMS, April"
+                  ></img>
+                  <Carousel.Caption>
+                    <h5>Music On Main Street, 4/23/2022</h5>
+                  </Carousel.Caption>
+                </Carousel.Item>
+
+                <Carousel.Item>
+                  <img
+                    className="d-block w-100"
+                    src={Moms36}
+                    alt="MOMS, April"
+                  ></img>
+                  <Carousel.Caption>
+                    <h5>Music On Main Street, 4/23/2022</h5>
+                  </Carousel.Caption>
+                </Carousel.Item>
+
+                <Carousel.Item>
+                  <img
+                    className="d-block w-100"
+                    src={Moms39}
+                    alt="MOMS, April"
+                  ></img>
+                  <Carousel.Caption>
+                    <h5>Music On Main Street, 4/23/2022</h5>
+                  </Carousel.Caption>
+                </Carousel.Item>
+
+                {/* Napoleon's 3/12 */}
                 <Carousel.Item>
                   <img
                     className="d-block w-100"
@@ -292,6 +513,7 @@ function ShowList() {
                   </Carousel.Caption>
                 </Carousel.Item>
 
+                {/* The Green Room 2/12 */}
                 <Carousel.Item>
                   <img
                     className="d-block w-100"
@@ -303,6 +525,7 @@ function ShowList() {
                   </Carousel.Caption>
                 </Carousel.Item>
 
+                {/* MOMS 10/02 */}
                 <Carousel.Item>
                   <img
                     className="d-block w-100"
@@ -313,6 +536,7 @@ function ShowList() {
                     <h5>Music On Main Street - 10/02/2021</h5>
                   </Carousel.Caption>
                 </Carousel.Item>
+
                 <Carousel.Item>
                   <img
                     className="d-block w-100"
@@ -323,6 +547,7 @@ function ShowList() {
                     <h5>Music On Main Street - 10/02/2021</h5>
                   </Carousel.Caption>
                 </Carousel.Item>
+
                 <Carousel.Item>
                   <img
                     className="d-block w-100"
@@ -333,6 +558,7 @@ function ShowList() {
                     <h5>Music On Main Street - 10/02/2021</h5>
                   </Carousel.Caption>
                 </Carousel.Item>
+
                 <Carousel.Item>
                   <img
                     className="d-block w-100"
@@ -343,6 +569,7 @@ function ShowList() {
                     <h5>Music On Main Street - 10/02/2021</h5>
                   </Carousel.Caption>
                 </Carousel.Item>
+
                 <Carousel.Item>
                   <img
                     className="d-block w-100"
@@ -364,6 +591,7 @@ function ShowList() {
                     <h5>Music On Main Street - 10/02/2021</h5>
                   </Carousel.Caption>
                 </Carousel.Item>
+
                 <Carousel.Item>
                   <img
                     className="d-block w-100"
@@ -374,6 +602,7 @@ function ShowList() {
                     <h5>Music On Main Street - 10/02/2021</h5>
                   </Carousel.Caption>
                 </Carousel.Item>
+
                 <Carousel.Item>
                   <img
                     className="d-block w-100"
@@ -395,6 +624,7 @@ function ShowList() {
                     <h5>Music On Main Street - 10/02/2021</h5>
                   </Carousel.Caption>
                 </Carousel.Item>
+
                 <Carousel.Item>
                   <img
                     className="d-block w-100"
@@ -405,6 +635,18 @@ function ShowList() {
                     <h5>Music On Main Street - 10/02/2021</h5>
                   </Carousel.Caption>
                 </Carousel.Item>
+
+                <Carousel.Item>
+                  <img
+                    className="d-block w-100"
+                    src={Moms55}
+                    alt="MOMS 10/2"
+                  ></img>
+                  <Carousel.Caption>
+                    <h5>Music On Main Street - 10/02/2021</h5>
+                  </Carousel.Caption>
+                </Carousel.Item>
+
                 <Carousel.Item>
                   <img
                     className="d-block w-100"
@@ -516,6 +758,7 @@ function ShowList() {
                   </Carousel.Caption>
                 </Carousel.Item>
 
+                {/* The Green Room 9/18 */}
                 <Carousel.Item>
                   <img
                     className="d-block w-100"
@@ -526,6 +769,7 @@ function ShowList() {
                     <h5>The Green Room - 9/18/2021</h5>
                   </Carousel.Caption>
                 </Carousel.Item>
+
                 <Carousel.Item>
                   <img
                     className="d-block w-100"
@@ -537,6 +781,7 @@ function ShowList() {
                   </Carousel.Caption>
                 </Carousel.Item>
 
+                {/* ATL Botanical 7/30 */}
                 <Carousel.Item>
                   <img className="d-block w-100" src={F5} alt="MOMS 10/2"></img>
                   <Carousel.Caption>
@@ -544,6 +789,7 @@ function ShowList() {
                   </Carousel.Caption>
                 </Carousel.Item>
 
+                {/* From The Earth  */}
                 <Carousel.Item>
                   <img
                     className="d-block w-100"
@@ -554,6 +800,7 @@ function ShowList() {
                     <h5>From The Earth Brewing</h5>
                   </Carousel.Caption>
                 </Carousel.Item>
+
                 <Carousel.Item>
                   <img
                     className="d-block w-100"
@@ -564,6 +811,7 @@ function ShowList() {
                     <h5>Terminal West</h5>
                   </Carousel.Caption>
                 </Carousel.Item>
+
                 <Carousel.Item>
                   <img
                     className="d-block w-100"
@@ -612,18 +860,21 @@ function ShowList() {
                     <h5>Avondale Town Cinema - 9/13/2019</h5>
                   </Carousel.Caption>
                 </Carousel.Item>
+
                 <Carousel.Item>
                   <img className="d-block w-100" src={F2} alt="MOMS 10/2"></img>
                   <Carousel.Caption>
                     <h5>Avondale Town Cinema - 9/13/2019</h5>
                   </Carousel.Caption>
                 </Carousel.Item>
+
                 <Carousel.Item>
                   <img className="d-block w-100" src={F3} alt="MOMS 10/2"></img>
                   <Carousel.Caption>
                     <h5>Red Light Cafe - 1/11/2019</h5>
                   </Carousel.Caption>
                 </Carousel.Item>
+
                 <Carousel.Item>
                   <img className="d-block w-100" src={F4} alt="MOMS 10/2"></img>
                   <Carousel.Caption>
@@ -635,9 +886,7 @@ function ShowList() {
           </div>
         </div>
       </div>
-      <div id="shows" className="para">
-        <h5>Some of our recent shows and events...</h5>
-      </div>
+      <h5 id="shows">Recent Shows and Events</h5>
     </div>
   );
 }

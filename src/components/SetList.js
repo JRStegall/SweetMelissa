@@ -4,7 +4,7 @@ import { Route } from "react-router";
 //import NPLN from "../Images/nap1.jpeg";
 //import TGR from "../Images/tgr1.jpeg";
 import THH from "../Images/hunthouse.webp";
-import MOMS from "../Images/moms1.jpeg";
+// import MOMS from "../Images/moms1.jpeg";
 import LOGO from "../Images/bandlogo.jpeg";
 function Set() {
   return (
@@ -14,8 +14,8 @@ function Set() {
           <div className="col-12">
             <h4>Upcoming Events</h4>
 
-            <ul>
-              <li>
+            {/*<ul>
+               <li>
                 <img src={MOMS} className="steady img-responsive" alt="logo" />
                 <a
                   href="https://musiconmainstreetlilburn.com/"
@@ -34,20 +34,12 @@ function Set() {
                   Pre-Sale Tickets
                 </a>
               </li>
-            </ul>
+            </ul> */}
 
             <ul>
               <li>
                 <img src={LOGO} className="steady img-responsive" alt="logo" />
-                <a
-                  href="https://www.napoleonsgrill.com/"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  {" "}
-                  Private Event{" "}
-                </a>{" "}
-                - Saturday, May 21
+                &nbsp;Private Event - Saturday, May 21
               </li>
             </ul>
 
@@ -55,14 +47,14 @@ function Set() {
               <li>
                 <img src={THH} className="steady img-responsive" alt="logo" />
                 <a
-                  href="https://www.napoleonsgrill.com/"
+                  href="https://hunthousemarietta.com/"
                   target="_blank"
                   rel="noreferrer"
                 >
                   {" "}
                   The Hunt House{" "}
                 </a>{" "}
-                - Saturday, June 18 @ 8pm
+                - Saturday, June 18 @ 6pm
               </li>
             </ul>
 

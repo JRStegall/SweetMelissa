@@ -181,8 +181,8 @@ function MusicPage() {
       <hr />
 
       <div className="player">
-        <h4>Live Shows</h4>
-        <span id="span">(Previously recorded, obviously...)</span>
+        <h4>Recent Live Shows</h4>
+
         <div className="row">
           <div className="col-lg-1"></div>
 
@@ -297,9 +297,6 @@ function MusicPage() {
             </div>
           </div>
         </div>
-      </div>
-      <div className="music-div">
-        <h5>Coming soon...</h5>
       </div>
     </div>
   );
