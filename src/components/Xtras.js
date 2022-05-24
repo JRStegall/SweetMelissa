@@ -19,6 +19,7 @@ import DR from "../Images/diane.jpeg";
 import AB from "../Images/aidan.jpeg";
 import AnB from "../Images/andrew.jpeg";
 import RB from "../Images/ronnie.jpeg";
+import SH from "../Images/sean.jpeg";
 
 function Xtras() {
   return (
@@ -35,6 +36,31 @@ function Xtras() {
         <div className="row">
           <div className="col this">
             <div className="row pics">
+              {/* Sean */}
+              <div className="col-sm-8 col-lg-6">
+                <figure className="figure">
+                  <img
+                    src={SH}
+                    className="App-logo img-responsive ronnie"
+                    alt="Seamn"
+                  />
+                  <a
+                    href="https://www.facebook.com/sean.hartley.71"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    {" "}
+                    <figcaption class="figure-caption text-right">
+                      Sean Hartley - bass
+                    </figcaption>
+                  </a>
+                  <p className="caption text-left">
+                    Tire Fire, Dot_Line Project
+                  </p>
+                  <hr />
+                </figure>
+              </div>
+
               {/* Ronnie */}
               <div className="col-sm-8 col-lg-6">
                 <figure className="figure">

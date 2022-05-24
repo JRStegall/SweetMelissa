@@ -3,7 +3,7 @@ import { Route } from "react-router";
 // import SteadyHand from "../Images/steadyhand.jpeg";
 //import NPLN from "../Images/nap1.jpeg";
 //import TGR from "../Images/tgr1.jpeg";
-import THH from "../Images/hunthouse.webp";
+import THH from "../Images/hunthouse.jpeg";
 // import MOMS from "../Images/moms1.jpeg";
 import LOGO from "../Images/bandlogo.jpeg";
 function Set() {
@@ -39,7 +39,7 @@ function Set() {
             <ul>
               <li>
                 <img src={LOGO} className="steady img-responsive" alt="logo" />
-                &nbsp;Private Event - Saturday, May 21
+                &nbsp;Private Event - Saturday, May 28
               </li>
             </ul>
 
