@@ -20,6 +20,7 @@ import AB from "../Images/aidan.jpeg";
 import AnB from "../Images/andrew.jpeg";
 import RB from "../Images/ronnie.jpeg";
 import SH from "../Images/sean.jpeg";
+import LW from "../Images/lefty.jpeg";
 
 function Xtras() {
   return (
@@ -36,6 +37,32 @@ function Xtras() {
         <div className="row">
           <div className="col this">
             <div className="row pics">
+              {/* Lefty */}
+              <div className="col-sm-8 col-lg-6">
+                <figure className="figure">
+                  <img
+                    src={LW}
+                    className="App-logo img-responsive ronnie"
+                    alt="Seamn"
+                  />
+                  <a
+                    href="https://www.facebook.com/lefty.williams"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    {" "}
+                    <figcaption class="figure-caption text-right">
+                      Lefty Williams - guitar
+                    </figcaption>
+                  </a>
+                  <p className="caption text-left">
+                    Nothing Simple, Wayside Riders, Revival - An Allman Brothers
+                    Experience, Lefty Williams Band
+                  </p>
+                  <hr />
+                </figure>
+              </div>
+
               {/* Sean */}
               <div className="col-sm-8 col-lg-6">
                 <figure className="figure">
