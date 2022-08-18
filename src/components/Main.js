@@ -74,9 +74,7 @@ function Main() {
       <br />
       <div class="para">
         <h5>
-          We LOVE all things Allman! <br />
-          More than that, we have a passion for playing music and helping to
-          keep The Allman Brothers music alive!
+          Celebrating the music of the Allman Brothers Family
         </h5>
         <h6 id="fbcap">
           Like us on Facebook, stay tuned for future events and SUPPORT LOCAL
