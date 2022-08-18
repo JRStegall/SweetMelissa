@@ -20,7 +20,6 @@ import AB from "../Images/aidan.jpeg";
 import AnB from "../Images/andrew.jpeg";
 import SH from "../Images/sean.jpeg";
 import LW from "../Images/lefty.jpeg";
-import DR from "../Images/diane.jpeg";
 
 
 function Xtras() {
@@ -89,30 +88,7 @@ function Xtras() {
                 </figure>
               </div>
 
-              {/* Diane */}
-              <div className="col-sm-8 col-lg-6">
-                <figure className="figure">
-                  <img
-                    src={DR}
-                    className="App-logo img-responsive dianne"
-                    alt="Diane"
-                  />
-                  <a
-                    href="https://www.facebook.com/diane.rabson"
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    {" "}
-                    <figcaption class="figure-caption text-right">
-                      Diane Radin Rabson - keys
-                    </figcaption>
-                  </a>
-                  <p className="caption text-left">
-                    Webster, Sweet Melissa and the Ramblin' Men
-                  </p>
-                  <hr />
-                </figure>
-              </div>
+             
 
               {/*  Andrew */}
               <div className="col-sm-8 col-lg-6">
