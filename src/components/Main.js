@@ -43,14 +43,7 @@ function Main() {
                   <h6>Aaron Kaufman - Drums</h6>
                 </Carousel.Caption>
               </Carousel.Item>
-
-              <Carousel.Item>
-                <img className="d-block w-100 diane" src={RB} alt="Ronnie"></img>
-                <Carousel.Caption className="capBkgrnd">
-                  <h6>Ronnie Bullock - Keys</h6>
-                </Carousel.Caption>
-              </Carousel.Item>
-
+              
               <Carousel.Item className="crit">
                 <img
                   className="crit d-block w-100 crit"
@@ -61,12 +54,21 @@ function Main() {
                   <h6>Chris "Critter" Ricker - Guitar/Vocals</h6>
                 </Carousel.Caption>
               </Carousel.Item>
+
               <Carousel.Item>
                 <img className="d-block w-100 js" src={JS} alt="Jeremy"></img>
                 <Carousel.Caption className="capBkgrnd">
                   <h6>Jeremy Stegall - Guitar/Vocals</h6>
                 </Carousel.Caption>
               </Carousel.Item>
+
+              <Carousel.Item>
+                <img className="d-block w-100 diane" src={RB} alt="Ronnie"></img>
+                <Carousel.Caption className="capBkgrnd">
+                  <h6>Ronnie Bullock - Keys</h6>
+                </Carousel.Caption>
+              </Carousel.Item>
+
             </Carousel>
           </div>
         </div>
