@@ -62,7 +62,7 @@ function Set() {
                   rel="noreferrer"
                 >
                   {" "}
-                  Napoleon's {" "}
+                  Moonshadow Tavern {" "}
                 </a>{" "}
                 - Saturday, December 3 @ 8pm
               </li>
