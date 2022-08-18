@@ -1,11 +1,12 @@
 import React from "react";
 import { Route } from "react-router";
 // import SteadyHand from "../Images/steadyhand.jpeg";
-//import NPLN from "../Images/nap1.jpeg";
-//import TGR from "../Images/tgr1.jpeg";
-import THH from "../Images/hunthouse.jpeg";
+import NPLN from "../Images/nap1.jpeg";
+import TGR from "../Images/tgr1.jpeg";
+import MNSD from "../Images/mnsd.jpeg";
+//import THH from "../Images/hunthouse.jpeg";
 // import MOMS from "../Images/moms1.jpeg";
-import LOGO from "../Images/bandlogo.jpeg";
+//import LOGO from "../Images/bandlogo.jpeg";
 function Set() {
   return (
     <div className="Main band list">
@@ -14,47 +15,56 @@ function Set() {
           <div className="col-12">
             <h4>Upcoming Events</h4>
 
-            {/*<ul>
+            <ul>
                <li>
-                <img src={MOMS} className="steady img-responsive" alt="logo" />
+                <img src={TGR} className="steady img-responsive" alt="logo" />
                 <a
-                  href="https://musiconmainstreetlilburn.com/"
+                  href="https://www.facebook.com/thegreenroomrestaurant"
                   target="_blank"
                   rel="noreferrer"
                 >
                   {" "}
-                  Music On Main Street (MOMS){" "}
+                  The Green Room (TGR){" "}
                 </a>{" "}
-                - Saturday, April 23 @ 6pm &nbsp;
-                <a
-                  href="https://musiconmainstreetlilburn.com/concerts.html"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  Pre-Sale Tickets
-                </a>
+                - Saturday, November 12 @ 8pm &nbsp;
+              
               </li>
-            </ul> */}
+            </ul> 
 
-            <ul>
+            {/*<ul>
               <li>
                 <img src={LOGO} className="steady img-responsive" alt="logo" />
                 &nbsp;Private Event - Saturday, May 28
+              </li>
+  </ul>*/}
+
+            <ul>
+              <li>
+                <img src={NPL} className="steady img-responsive" alt="logo" />
+                <a
+                  href="https://www.facebook.com/napoleonsGrill"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  {" "}
+                  Napoleon's {" "}
+                </a>{" "}
+                - Saturday, November 26 @ 8pm
               </li>
             </ul>
 
             <ul>
               <li>
-                <img src={THH} className="steady img-responsive" alt="logo" />
+                <img src={MNSD} className="steady img-responsive" alt="logo" />
                 <a
-                  href="https://hunthousemarietta.com/"
+                  href="https://www.facebook.com/Moonshadow.Tavern"
                   target="_blank"
                   rel="noreferrer"
                 >
                   {" "}
-                  The Hunt House{" "}
+                  Napoleon's {" "}
                 </a>{" "}
-                - Saturday, June 18 @ 6pm
+                - Saturday, December 3 @ 8pm
               </li>
             </ul>
 
