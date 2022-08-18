@@ -18,9 +18,10 @@ import EP from "../Images/ethan.jpeg";
 import DR from "../Images/diane.jpeg";
 import AB from "../Images/aidan.jpeg";
 import AnB from "../Images/andrew.jpeg";
-import RB from "../Images/ronnie.jpeg";
 import SH from "../Images/sean.jpeg";
 import LW from "../Images/lefty.jpeg";
+import DR from "../Images/diane.jpeg";
+
 
 function Xtras() {
   return (
@@ -88,26 +89,26 @@ function Xtras() {
                 </figure>
               </div>
 
-              {/* Ronnie */}
+              {/* Diane */}
               <div className="col-sm-8 col-lg-6">
                 <figure className="figure">
                   <img
-                    src={RB}
-                    className="App-logo img-responsive ronnie"
-                    alt="Ronnie"
+                    src={DR}
+                    className="App-logo img-responsive dianne"
+                    alt="Diane"
                   />
                   <a
-                    href="https://www.facebook.com/ronnie.bullock.140"
+                    href="https://www.facebook.com/diane.rabson"
                     target="_blank"
                     rel="noreferrer"
                   >
                     {" "}
                     <figcaption class="figure-caption text-right">
-                      Ronnie Bullock - keys
+                      Diane Radin Rabson - keys
                     </figcaption>
                   </a>
                   <p className="caption text-left">
-                    Blue Talk, Subcontra, Tyler Neal Band
+                    Webster, Sweet Melissa and the Ramblin' Men
                   </p>
                   <hr />
                 </figure>

@@ -6,7 +6,8 @@ import CR from "../Images/critter.jpeg";
 import AK from "../Images/aaron.jpeg";
 import JS from "../Images/js.jpeg";
 import JB from "../Images/johnny.jpeg";
-// import DR from "../Images/diane.jpeg";
+import RB from "../Images/ronnie.jpeg";
+
 
 function Main() {
   return (
@@ -43,12 +44,12 @@ function Main() {
                 </Carousel.Caption>
               </Carousel.Item>
 
-              {/* <Carousel.Item>
-                <img className="d-block w-100 diane" src={DR} alt="Diane"></img>
+              <Carousel.Item>
+                <img className="d-block w-100 diane" src={RB} alt="Ronnie"></img>
                 <Carousel.Caption className="capBkgrnd">
-                  <h6>Diane Rabson - Keys</h6>
+                  <h6>Ronnie Bullock - Keys</h6>
                 </Carousel.Caption>
-              </Carousel.Item> */}
+              </Carousel.Item>
 
               <Carousel.Item className="crit">
                 <img
