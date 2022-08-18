@@ -1,7 +1,7 @@
 import React from "react";
 import { Route } from "react-router";
 // import SteadyHand from "../Images/steadyhand.jpeg";
-import NPLN from "../Images/nap1.jpeg";
+import NPL from "../Images/nap1.jpeg";
 import TGR from "../Images/tgr1.jpeg";
 import MNSD from "../Images/mnsd.jpeg";
 //import THH from "../Images/hunthouse.jpeg";
